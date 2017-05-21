@@ -8,6 +8,7 @@
 }
 
 .profile{
+    padding-top: 50px;
     vertical-align: middle;
     li:hover{background-color:red}
 }
@@ -17,8 +18,7 @@
  */
 .site-header {
     background-image: url('img/background.jpg')
-    background-size: 800px 200px
-    border-top: 1px solid #FFFFFF;
+    background-size: 800px 200px;
     border-bottom: 1px solid $grey-color-light;
     // Positioning context for the mobile navigation icon
     position: relative;
