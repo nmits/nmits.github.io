@@ -18,7 +18,7 @@
 
 .sidelinks{
     position: fixed;
-    margin-top: 3.5%;
+    margin-top: 30vh;
     width: 15vw;
     height: 10vh;
     ul {
@@ -39,7 +39,7 @@
     /* Change the link color on hover */
     li a:hover {
         background-color: #777777;
-        color: white;
+        color: red;
     }
 }
 
