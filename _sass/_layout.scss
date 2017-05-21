@@ -1,27 +1,4 @@
 
-.profile {
-  border-radius: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0;
-  padding-top: 50px;
-}
-
-.profile .profilepicture {
-  border-radius: 30px;
-  width: 200px;
-  height: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0;
-}
-
-.profile .profilepicture .profimg{
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-}
-
 .sidelinks{
     ul {
         list-style-type: none;
@@ -53,6 +30,24 @@
     border-bottom: 1px solid $grey-color-light;
     // Positioning context for the mobile navigation icon
     position: relative;
+
+    .profile {
+      border-radius: 30px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0;
+      padding-top: 50px;
+    }
+
+    .profilepicture {
+      width: 200px;
+      height: 200px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0;
+    }
+
+
 }
 
 .site-nav {
@@ -147,6 +142,7 @@
     list-style: none;
     margin-left: 0;
     margin-top: 50px;
+    width: 100px;
 }
 
 .footer-col-wrapper {
