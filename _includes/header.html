@@ -3,10 +3,7 @@
   <div class="wrapper">
 
     <div class="profile">
-        <div class="profilepicture">
-            <img src="img/pic.jpg" class="pic" alt="Profile picture" style="border-radius: 50%;width:200px;height:200px;">
-        </div>
-        <ul class="social-media-list">
+        <ul class="social-media-list" style="float:left">
           <li>
               {% include icon-email.html %}
           </li>
@@ -35,6 +32,11 @@
           </li>
           {% endif %}
         </ul>
+        <div class="profilepicture">
+            <img src="img/pic.jpg" class="pic" alt="Profile picture" style="border-radius: 50%;width:200px;height:200px;">
+
+        </div>
+
     </div>
 
   </div>
