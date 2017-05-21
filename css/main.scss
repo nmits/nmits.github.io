@@ -43,7 +43,9 @@ $on-laptop:        800px;
     }
 }
 
-
+.img-circle {
+    border-radius: 50%;
+}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
