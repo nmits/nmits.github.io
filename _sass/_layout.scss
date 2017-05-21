@@ -7,14 +7,19 @@
     right: 0px;
 }
 
-.profile{
-    padding-top: 50px;
-    li:hover{background-color:777777}
+.profile {
+  border-radius: 30px;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
 }
 
-.profilepicture{
-    position: relative;
-    margin: auto;
+.profilepicture {
+  width: 100%;
+  height: auto;
 }
 
 .sidelinks{
@@ -138,6 +143,7 @@
 
 .contact-list,
 .social-media-list {
+    li:hover{background-color:777777}
     list-style: none;
     margin-left: 0;
 }
