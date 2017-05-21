@@ -4,8 +4,10 @@
   <div class="wrapper">
 
     <div class="profile">
-      <img src="img/pic.jpg" class="img-circle" alt="Profile picture" align="middle">
-      <ul class="social-media-list">
+        <div class="profilepicture">
+            <img src="img/pic.jpg" class="img-circle" alt="Profile picture">
+        </div>
+        <ul class="social-media-list">
           <li>
               {% include icon-email.html %}
           </li>
@@ -33,7 +35,7 @@
               {% include icon-instagram.html username=site.instagram_username %}
           </li>
           {% endif %}
-      </ul>
+        </ul>
     </div>
 
   </div>

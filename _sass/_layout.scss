@@ -4,20 +4,21 @@
     border-radius: 50%;
     height: 200px;
     width: 200px;
-    vertical-align: middle;
 }
 
 .profile{
     padding-top: 50px;
-    vertical-align: middle;
     li:hover{background-color:red}
+}
+
+.profilepicture{
+    vertical-align:middle;
 }
 
 /**
  * Site header
  */
 .site-header {
-    background-image: url('img/background.jpg');
     border-bottom: 1px solid $grey-color-light;
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -126,20 +127,6 @@
     padding-left: $spacing-unit / 2;
 }
 
-.footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-    width: -webkit-calc(40% - (#{$spacing-unit} / 2));
-    width:         calc(40% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-    width: -webkit-calc(25% - (#{$spacing-unit} / 2));
-    width:         calc(25% - (#{$spacing-unit} / 2));
-}
 
 @include media-query($on-laptop) {
     .footer-col-1,
