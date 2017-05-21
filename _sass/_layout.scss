@@ -4,21 +4,26 @@
     border-radius: 50%;
     height: 200px;
     width: 200px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .profile {
   border-radius: 30px;
   width: auto;
-  height: auto;
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
   padding: 0;
+  top-padding: 50px;
 }
 
 .profilepicture {
-  width: auto;
-  height: auto;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .sidelinks{
@@ -51,7 +56,6 @@
     border-bottom: 1px solid $grey-color-light;
     // Positioning context for the mobile navigation icon
     position: relative;
-    height: 500px
 }
 
 .site-nav {
