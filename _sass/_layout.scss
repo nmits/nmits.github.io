@@ -2,20 +2,13 @@
  * Site header
  */
 .site-header {
+    background-image: url("img/background.jpg");
     border-top: 50px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     top-padding: 50px;
     // Positioning context for the mobile navigation icon
     position: relative;
-}
-
-.header-background {
-  height: 150px;
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
+    height:20%
 }
 
 .site-nav {
