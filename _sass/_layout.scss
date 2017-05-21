@@ -1,11 +1,10 @@
 
 .img-circle {
     display: block;
-    border-size: 50px;
     border-radius: 50%;
     height: 200px;
     width: 200px;
-    margin: auto;
+    right: 0px;
 }
 
 .profile{
@@ -28,7 +27,6 @@
     }
 
     li a {
-       float: left;
        display: block;
         color: #000;
         padding: 8px 16px;
