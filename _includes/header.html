@@ -4,10 +4,6 @@
 
     <div class="profile">
 
-        <div class="profilepicture">
-            <img src="img/pic.jpg" class="pic" alt="Profile picture" style="border-radius: 50%;width:200px;height:200px;">
-        </div>
-
         <ul class="social-media-list" style="float:left">
             <li>
                 <span style="font-weight:bold;text-color=red;">Noah Mitsuhashi</span>
@@ -25,31 +21,10 @@
           </li>
         </ul>
 
-        <ul class="social-media-list" style="float:right;text-align:right">
-            {% if site.linkedin_username %}
-            <li>
-                {% include icon-linkedin.html username=site.linkedin_username %}
-            </li>
-            {% endif %}
+        <div class="profilepicture">
+            <img src="img/pic.jpg" class="pic" alt="Profile picture" style="border-radius: 50%;width:200px;height:200px;">
+        </div>
 
-            {% if site.github_username %}
-            <li>
-                {% include icon-github.html username=site.github_username %}
-            </li>
-            {% endif %}
-
-            {% if site.facebook_username %}
-            <li>
-                {% include icon-facebook.html username=site.facebook_username %}
-            </li>
-            {% endif %}
-
-            {% if site.instagram_username %}
-            <li>
-                {% include icon-instagram.html username=site.instagram_username %}
-            </li>
-            {% endif %}
-        </ul>
 
     </div>
 
