@@ -45,6 +45,12 @@ $on-laptop:        800px;
 
 .img-circle {
     border-radius: 50%;
+    width="15%" height="15%"
+}
+
+.site-header {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
