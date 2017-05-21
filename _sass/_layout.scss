@@ -18,7 +18,7 @@
 
 .sidelinks{
     position: fixed;
-    margin-top: 25vh;
+    margin-top: 1vh;
     width: 15vw;
     height: 10vh;
     ul {
@@ -40,6 +40,8 @@
     li a:hover {
         background-color: #777777;
         color: red;
+        padding: 6vh 3.33vw;
+        padding-left: 20px;
     }
 }
 
