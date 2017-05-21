@@ -4,15 +4,19 @@
 
     <div class="profile">
         <ul class="social-media-list" style="float:left">
-            <li></li>
             <li>
-              303.771.7961
+                <span style="font-weight:bold;color=red;">Noah Mitsuhashi</span>
+            </li>
+            <li>
+                <a href="tel:3037717961">303.771.7961</a>
           </li>
           <li>
-              nmitsuha@usc.edu
+              <a href="mailto:{{ site.email }}" target="_blank">nmitsuha@usc.edu</a>
           </li>
           <li>
-              Los Angeles, CA
+              <a href="https://www.google.com/maps/place/University+of+Southern+California/@34.0223519,-118.285117,15z/data=!4m2!3m1!1s0x0:0xaa905a5bb427a2c4?sa=X&ved=0ahUKEwiEjsTw1IDUAhVIxWMKHRkvC8oQ_BIImgEwEQ">
+                 Los Angeles, CA
+              </a>
           </li>
         </ul>
 
@@ -21,10 +25,6 @@
         </span>
 
         <ul class="social-media-list" style="float:right;text-align:right">
-            <li>
-                {% include icon-email.html %}
-            </li>
-
             {% if site.linkedin_username %}
             <li>
                 {% include icon-linkedin.html username=site.linkedin_username %}
