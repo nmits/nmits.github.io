@@ -2,23 +2,27 @@
 .img-circle {
     border-size: 50px;
     border-radius: 50%;
-    height:200px;
-    width:200px;
+    height: 200px;
+    width: 200px;
+    vertical-align: middle;
 }
 
 .profile{
-    vertical-align:center;
+    vertical-align: middle;
+    li:hover{background-color:red}
 }
 
 /**
  * Site header
  */
 .site-header {
+    background-image: url('img/background.jpg')
+    background-size: 800px 200px
     border-top: 1px solid #FFFFFF;
     border-bottom: 1px solid $grey-color-light;
     // Positioning context for the mobile navigation icon
     position: relative;
-    height:20%
+    height: 200px
 }
 
 .site-nav {
