@@ -55,6 +55,18 @@ li a:hover {
     border-radius: 50%;
 }
 
+.icon {
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        vertical-align: middle;
+
+        path {
+            fill: $grey-color;
+        }
+    }
+}
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
