@@ -5,8 +5,8 @@
     height: 200px;
     width: 200px;
     overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    position: absolute;
 }
 
 .profile {
@@ -16,13 +16,10 @@
   margin-left: auto;
   margin-right: auto;
   padding: 0;
-  top-padding: 50px;
+  padding-top: 50px;
 }
 
 .profilepicture {
-  overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
 
 }
 
