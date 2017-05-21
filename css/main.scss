@@ -18,7 +18,7 @@ $text-color:       #111;
 $background-color: #eeeeee;
 $brand-color:      #2a7ae2;
 
-$grey-color:       #828282;
+$grey-color:       #A4A4A4;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
@@ -45,10 +45,6 @@ $on-laptop:        1000px;
 
 li {
     float: left;
-}
-
-li a:hover {
-    font-color: "red";
 }
 
 .img-circle {
