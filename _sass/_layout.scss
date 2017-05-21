@@ -14,9 +14,8 @@
 }
 
 .profilepicture{
-    position: absolute;
-    float: right;
-    vertical-align:center;
+    position: relative;
+    margin: auto;
 }
 
 .sidelinks{
@@ -129,6 +128,9 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    position: relative;
+    height: 200px
+
 }
 
 .footer-heading {
