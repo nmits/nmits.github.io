@@ -15,7 +15,7 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #eeeeee;
+$background-color: #ffffff;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #A4A4A4;
@@ -43,15 +43,15 @@ $on-laptop:        1000px;
     }
 }
 
-li {
-    float: left;
-}
-
 .img-circle {
     border-radius: 50%;
 }
 
-.grayscale {-webkit-filter: grayscale(100%); filter: grayscale(100%); height:18px;width:18px;}
+.icons {
+            -webkit-filter: grayscale(100%); filter: grayscale(100%);
+            -webkit-filter: brightness(0.25); filter: brightness(0.25);
+             height:18px;width:18px;
+}
 
 .icon {
         display: inline-block;
