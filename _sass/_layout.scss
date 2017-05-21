@@ -1,9 +1,11 @@
 
 .img-circle {
+    display: block;
     border-size: 50px;
     border-radius: 50%;
     height: 200px;
     width: 200px;
+    margin: auto;
 }
 
 .profile{
@@ -12,6 +14,8 @@
 }
 
 .profilepicture{
+    position: absolute;
+    float: right;
     vertical-align:center;
 }
 
