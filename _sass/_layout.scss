@@ -1,26 +1,27 @@
 
-.img-circle {
-    display: block;
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    overflow: hidden;
-    margin: 0 auto;
-    position: absolute;
-}
-
 .profile {
+  background-image = url('img/background.png')
   border-radius: 30px;
-  width: auto;
-  overflow: hidden;
   margin-left: auto;
   margin-right: auto;
   padding: 0;
   padding-top: 50px;
 }
 
-.profilepicture {
+.profile .profilepicture {
+  border-radius: 30px;
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
 
+}
+
+.profile .profilepicture img{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
 }
 
 .sidelinks{
