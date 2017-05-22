@@ -156,7 +156,16 @@
 @media only screen and (max-device-width: 480px) {
     .profilepicture{
         width:100px;
-        heigh:100px;
+        height:100px;
+    }
+
+    .self{
+        width:100px;
+        height:100px;
+    }
+
+    .contact-list{
+        width:50vw;
     }
 
     .username{
