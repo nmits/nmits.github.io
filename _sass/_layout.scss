@@ -8,11 +8,19 @@
 }
 
 .profilepicture {
-    width: 200px;
-    height: 200px;
-    padding-top: 2vw;
+    width:200px;
+    height:200px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.self {
+ border-radius: 50%;
+ width:200px;
+ height:200px;
+ margin-top: 3vh;
+ margin-left: auto;
+ margin-right: auto;
 }
 
 .sidelinks{
@@ -139,18 +147,16 @@
 
 .contact-list{
     letter-spacing:3px;
-    a:hover{background-color:777777}
+    li a:hover{background-color:cccccc}
     list-style: none;
     margin-left: 0;
-    margin-top: 50px;
     width: 300px;
 }
 
 .social-media-list {
     letter-spacing:3px;
-    a:hover{background-color:777777}
+    li a:hover{background-color:cccccc}
     list-style: none;
-    margin-top: 50px;
     width: 300px;
     text-align:right;
     margin-right:5vw;
