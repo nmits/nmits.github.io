@@ -94,7 +94,7 @@
         transform: translateX(-50%);
         text-align: center;
         transition: color 200ms ease-out;
-        transition-delay: 200ms
+        transition-delay: 200ms;
         a {
             color: #dddddd;
             padding: 0 5px;
@@ -137,7 +137,7 @@
     width: 300px;
     float:left;
     transition: color 200ms ease-out;
-    transition-delay: 200ms
+    transition-delay: 200ms;
 
     a:hover{
         color: #555555
