@@ -64,7 +64,7 @@
         }
 
         a:hover {
-            color: $grey-color-dark;
+            color: $grey-color;
         }
 }
 
@@ -98,8 +98,7 @@
 }
 
 .site-footer > ul > li:hover {
-    opacity: 0.5;
-    background: #dddddd;
+    opacity: 0.7;
 }
 
 
@@ -117,7 +116,7 @@
     }
 
     a:hover{
-        color: $grey-color-dark
+        color: $grey-color
     }
 }
 
