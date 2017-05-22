@@ -93,9 +93,9 @@
         -webkit-transform: translateX(-50%);
         transform: translateX(-50%);
         text-align: center;
-        transition: all 200ms ease-out;
+        transition: all 400ms ease-out;
             transition-property: all;
-            transition-duration: 200ms;
+            transition-duration: 400ms;
             transition-timing-function: ease-out;
             transition-delay: initial;
 
@@ -139,15 +139,15 @@
     margin-top: 1vw;
     margin-left: 1vw;
     width: 300px;
-    float:left
-    transition: all 200ms ease-out;
+    float:left;
+    transition: all 400ms ease-out;
         transition-property: all;
-        transition-duration: 200ms;
+        transition-duration: 400ms;
         transition-timing-function: ease-out;
         transition-delay: initial;
 
     a:hover{
-        color: #ddddddd
+        color: #999999
     }
 }
 
