@@ -7,19 +7,17 @@
 
 .profilepicture {
     float: right;
-    width:200px;
-    height:200px;
-    margin-left: auto;
-    margin-right: auto;
+    width:150px;
+    height:150px;
+    margin-top: 3vw;
+    margin-right: 3vw;
 }
 
 .self {
     position: absolute;
     border-radius: 50%;
-    width:200px;
-    height:200px;
-    margin-top: 3vh;
-    margin-right: 3vh;
+    width:150px;
+    height:150px;
     float:right
 }
 
@@ -37,7 +35,7 @@
 
     li a {
        display: block;
-        color: #000;
+        color: #ffffff;
         padding: 5vh 10vw;
         padding-left: 12px;
        text-decoration: none;
@@ -76,6 +74,8 @@
     line-height: 40px;
 
     .site-footer nav {
+        width: 50vw;
+        float: left;
         letter-spacing:3px;
         position: absolute;
         top: 0;
@@ -90,6 +90,7 @@
 
     .site-footer ul{
         display: block;
+        width: 50vw
         float: right;
         margin: 0;
         padding: 0;
@@ -114,18 +115,17 @@
         }
     }
 
-    .site-footer .icons{
+    .icons{
         filter: invert(100%);
     }
 }
 
 .contact-list{
     letter-spacing:3px;
-    li a:hover{background-color:cccccc}
     list-style: none;
-    margin-left: 0;
+    margin-left: 3vw;
     width: 300px;
-     float:left
+    float:left
 }
 
 .footer-col-wrapper {
