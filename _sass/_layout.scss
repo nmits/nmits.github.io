@@ -162,10 +162,12 @@
     .username{
         width: 0px;
         height: 0px;
-        margin-left:-4000px;
+        visibility: hidden;
     }
 
     .site-footer > nav{
-        margin-left:-4000px;
+        width: 0px;
+        height: 0px;
+        visibility: hidden;
     }
 }
