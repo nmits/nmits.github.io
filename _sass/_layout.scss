@@ -1,8 +1,10 @@
 
 .icons {
             -webkit-filter: grayscale(100%); filter: grayscale(100%);
-            -webkit-filter: brightness(0.25); filter: brightness(0.25);
+            -webkit-filter: brightness(0.01); filter: brightness(0.01);
             height:20px;width:20px;
+            filter: invert(100%);
+
 }
 
 .profilepicture {
@@ -11,7 +13,6 @@
     height:150px;
     margin-top: 1.5vw;
     margin-right: 1.5vw;
-    -webkit-box-shadow: 0px 5px 34px 6px rgba(0,0,0,0.6);
 }
 
 .self {
@@ -19,39 +20,6 @@
     width:150px;
     height:150px;
     float:right
-}
-
-.sidelinks{
-    position: fixed;
-    margin-top: 1vh;
-    width: 15vw;
-    height: 10vh;
-    ul {
-        margin-left:0px;
-        list-style-type: none;
-        letter-spacing:3px;
-        background-color: #bbbbbb;
-    }
-
-    li a {
-       display: block;
-        color: #ffffff;
-        padding: 5vh 10vw;
-        padding-left: 12px;
-       text-decoration: none;
-    }
-
-    li a:visited {
-            color: #ffffff;
-    }
-
-    /* Change the link color on hover */
-    li a:hover {
-        background-color: #777777;
-        color: red;
-        padding: 5vh 20vw;
-        padding-left: 20px;
-    }
 }
 
 /**
@@ -68,9 +36,7 @@
  */
 .site-footer {
     width: 100%;
-    opacity: 0.6;
     height: 40px;
-    background: $grey-color-dark;
     bottom: 0;
     left: 0;
     color: #ffffff;
@@ -81,28 +47,24 @@
 }
 
 .site-footer > nav{
-        width: 25vw;
         float: left;
         letter-spacing:3px;
         position: absolute;
         top: 0;
         height: 40px;
-        left: 50%;
-        -moz-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-        -webkit-transform: translateX(-50%);
-        transform: translateX(-50%);
         text-align: center;
         transition: color 200ms ease-out;
         transition-delay: 200ms;
         a {
+            transition: color 200ms ease-out;
+            transition-delay: 200ms;
             color: #dddddd;
             padding: 0 5px;
             margin: 0 5px;
         }
 
         a:hover {
-            color: #ffffff;
+            color: $grey-color-dark;
         }
 }
 
@@ -123,11 +85,23 @@
     width: 40px;
     float: right;
     display: inline;
+    transition: background 200ms ease-out;
+    transition-delay: 200ms;
 }
 
-.site-footer .icons{
-    filter: invert(100%);
+.site-footer > ul > li {
+    width: 40px;
+    float: right;
+    display: inline;
+    transition: background 200ms ease-out;
+    transition-delay: 200ms;
 }
+
+.site-footer > ul > li:hover {
+    opacity: 0.5
+    background: #dddddd
+}
+
 
 .contact-list{
     letter-spacing:3px;
@@ -136,11 +110,14 @@
     margin-left: 1vw;
     width: 300px;
     float:left;
+
+    a{
     transition: color 200ms ease-out;
     transition-delay: 200ms;
+    }
 
     a:hover{
-        color: #555555
+        color: $grey-color-dark
     }
 }
 
