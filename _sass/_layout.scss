@@ -52,11 +52,9 @@
         top: 0;
         height: 40px;
         text-align: center;
-        transition: color 200ms ease-out;
-        transition-delay: 200ms;
+
         a {
-            transition: color 200ms ease-out;
-            transition-delay: 200ms;
+            transition: color 400ms ease-out;
             color: #dddddd;
             padding: 0 5px;
             margin: 0 5px;
@@ -84,16 +82,7 @@
     width: 40px;
     float: right;
     display: inline;
-    transition: background 200ms ease-out;
-    transition-delay: 200ms;
-}
-
-.site-footer > ul > li {
-    width: 40px;
-    float: right;
-    display: inline;
-    transition: background 200ms ease-out;
-    transition-delay: 200ms;
+    transition: opacity 400ms ease-out;
 }
 
 .site-footer > ul > li:hover {
@@ -110,8 +99,7 @@
     float:left;
 
     a{
-    transition: color 200ms ease-out;
-    transition-delay: 200ms;
+    transition: color 400ms ease-out;
     }
 
     a:hover{
