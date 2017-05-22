@@ -78,8 +78,9 @@
     box-sizing: border-box;
     padding: 0 0 0 20px;
     line-height: 40px;
+}
 
-    .site-footer nav {
+.site-footer nav {
         color: #dddddd;
         width: 25vw;
         float: left;
@@ -102,33 +103,27 @@
         a:hover {
             color: #ffffff;
         }
-    }
+}
 
-    .site-footer ul{
-        width: 25vw;
-        display: block;
-        float: right;
-        margin: 0;
-        padding: 0;
-        border: 0;
-        vertical-align: baseline;
-        list-style-type: disc;
-        -webkit-margin-before: 1em;
-        -webkit-margin-after: 1em;
-        -webkit-margin-start: 0px;
-        -webkit-margin-end: 0px;
-        -webkit-padding-start: 40px;
-        list-style: none;
-    }
+.site-footer ul{
+    width: 25vw;
+    display: block;
+    float: right;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+    list-style: none;
+}
 
-    .site-footer li{
-        width: 40px;
-        height: 40px;
-    }
-
-    .icons{
-        filter: invert(100%);
-    }
+.site-footer .icons{
+    filter: invert(100%);
 }
 
 .contact-list{
