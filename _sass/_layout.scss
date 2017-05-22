@@ -11,7 +11,7 @@
     height:150px;
     margin-top: 1.5vw;
     margin-right: 1.5vw;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0px 5px 34px 6px rgba(0,0,0,0.6);
 }
 
 .self {
@@ -93,12 +93,8 @@
         -webkit-transform: translateX(-50%);
         transform: translateX(-50%);
         text-align: center;
-        transition: all 400ms ease-out;
-            transition-property: all;
-            transition-duration: 400ms;
-            transition-timing-function: ease-out;
-            transition-delay: initial;
-
+        transition: color 200ms ease-out;
+        transition-delay: 200ms
         a {
             color: #dddddd;
             padding: 0 5px;
@@ -140,14 +136,11 @@
     margin-left: 1vw;
     width: 300px;
     float:left;
-    transition: all 400ms ease-out;
-        transition-property: all;
-        transition-duration: 400ms;
-        transition-timing-function: ease-out;
-        transition-delay: initial;
+    transition: color 200ms ease-out;
+    transition-delay: 200ms
 
     a:hover{
-        color: #999999
+        color: #555555
     }
 }
 
