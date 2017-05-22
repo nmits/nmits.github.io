@@ -9,13 +9,11 @@
     float: right;
     width:150px;
     height:150px;
-    margin-top: 1vw;
-    margin-right: 1vw;
-    position: fixed;
+    margin-top: 2vw;
+    margin-right: 2vw;
 }
 
 .self {
-    position: absolute;
     border-radius: 50%;
     width:150px;
     height:150px;
@@ -69,11 +67,12 @@
  */
 .site-footer {
     width: 100%;
+    opacity: 0.4;
     height: 40px;
     background: $grey-color-dark;
     bottom: 0;
     left: 0;
-    color: #4c515c;
+    color: #ffffff;
     box-sizing: border-box;
     padding: 0 0 0 20px;
     line-height: 40px;
@@ -81,7 +80,6 @@
 }
 
 .site-footer > nav{
-        color: #dddddd;
         width: 25vw;
         float: left;
         letter-spacing:3px;
@@ -96,6 +94,7 @@
         text-align: center;
 
         a {
+            color: #dddddd;
             padding: 0 5px;
             margin: 0 5px;
         }
@@ -106,20 +105,24 @@
 }
 
 .site-footer > ul{
+    list-style-type: none;
     width: 25vw;
-    display: block;
     float: right;
     margin: 0;
     padding: 0;
     border: 0;
     vertical-align: baseline;
-    list-style-type: disc;
     -webkit-margin-before: 1em;
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     -webkit-padding-start: 40px;
-    list-style: none;
+}
+
+.site-footer > li {
+    float: right;
+    display: inline;
+    border: 1px solid #dddddd;
 }
 
 .site-footer .icons{
