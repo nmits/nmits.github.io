@@ -106,20 +106,18 @@
 
 .site-footer > ul{
     list-style-type: none;
-    width: 25vw;
     float: right;
     margin: 0;
     padding: 0;
     border: 0;
     vertical-align: baseline;
-    -webkit-margin-before: 1em;
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     -webkit-padding-start: 40px;
 }
 
-.site-footer > li {
+.site-footer > ul > li {
     float: right;
     display: inline;
     border: 1px solid #dddddd;
