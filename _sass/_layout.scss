@@ -1,4 +1,11 @@
 
+.icons {
+            -webkit-filter: grayscale(100%); filter: grayscale(100%);
+            -webkit-filter: brightness(0.25); filter: brightness(0.25);
+            filter: invert(100%);
+            height:40px;width:40px;
+}
+
 .profile {
     position: absolute;
     border-radius: 30px;
@@ -69,13 +76,12 @@
 .site-footer {
     width: 100%;
     height: 40px;
-    background: #22252e;
+    background: $grey-color-dark;
     bottom: 0;
     left: 0;
     color: #4c515c;
     box-sizing: border-box;
     padding: 0 0 0 20px;
-    font-size: .83333em;
     line-height: 40px;
 
     .site-footer nav {
@@ -89,6 +95,32 @@
         -webkit-transform: translateX(-50%);
         transform: translateX(-50%);
         text-align: center;
+    }
+
+    .site-footer ul{
+        display: block;
+        float: right;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        vertical-align: baseline;
+        list-style-type: disc;
+        -webkit-margin-before: 1em;
+        -webkit-margin-after: 1em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        -webkit-padding-start: 40px;
+        list-style: none;
+    }
+
+    .site-footer a {
+        color: #dddddd;
+        text-decoration: none;
+
+        &:hover {
+            color: ffffff;
+            text-decoration: bold;
+        }
     }
 }
 
