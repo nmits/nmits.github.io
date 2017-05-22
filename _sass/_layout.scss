@@ -54,14 +54,14 @@
         text-align: center;
 
         a {
-            transition: color 400ms ease-out;
+            transition: filter 400ms ease-out;
             color: #dddddd;
             padding: 0 5px;
             margin: 0 5px;
         }
 
         a:hover {
-            color: $grey-color-dark;
+            filter: invert(50%);
         }
 }
 
@@ -82,11 +82,11 @@
     width: 40px;
     float: right;
     display: inline;
-    transition: opacity 400ms ease-out;
+    transition: filter 400ms ease-out;
 }
 
 .site-footer > ul > li:hover {
-    opacity: 0.5;
+    filter: invert(50%);
 }
 
 
@@ -99,11 +99,11 @@
     float:left;
 
     a{
-    transition: color 400ms ease-out;
+        transition: filter 400ms ease-out;
     }
 
     a:hover{
-        color: $grey-color
+        filter: invert(50%);
     }
 }
 
