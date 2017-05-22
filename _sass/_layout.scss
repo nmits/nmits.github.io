@@ -1,6 +1,6 @@
 
-
 .profile {
+    position: absolute;
     border-radius: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -8,6 +8,7 @@
 }
 
 .profilepicture {
+    float: right;
     width:200px;
     height:200px;
     margin-left: auto;
@@ -15,12 +16,13 @@
 }
 
 .self {
- border-radius: 50%;
- width:200px;
- height:200px;
- margin-top: 3vh;
- margin-left: auto;
- margin-right: auto;
+    position: absolute;
+    border-radius: 50%;
+    width:200px;
+    height:200px;
+    margin-top: 3vh;
+    margin-right: 3vh;
+    float:right
 }
 
 .sidelinks{
@@ -61,86 +63,33 @@
     position: relative;
 }
 
-.site-nav {
-    float: right;
-    line-height: 56px;
-
-    .menu-icon {
-        display: none;
-    }
-
-    .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the last one
-        &:not(:last-child) {
-            margin-right: 20px;
-        }
-    }
-
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-
-            &:not(:last-child) {
-                margin-right: 0;
-            }
-            margin-left: 20px;
-        }
-    }
-}
-
-
-
 /**
  * Site footer
  */
 .site-footer {
-    position: relative;
-}
+    width: 100%;
+    height: 40px;
+    background: #22252e;
+    bottom: 0;
+    left: 0;
+    color: #4c515c;
+    box-sizing: border-box;
+    padding: 0 0 0 20px;
+    font-size: .83333em;
+    line-height: 40px;
 
-.footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
+    .site-footer nav {
+        letter-spacing:3px;
+        position: absolute;
+        top: 0;
+        height: 40px;
+        left: 50%;
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        text-align: center;
+    }
 }
 
 .contact-list{
@@ -149,17 +98,7 @@
     list-style: none;
     margin-left: 0;
     width: 300px;
-}
-
-.social-media-list {
-    letter-spacing:3px;
-    li a:hover{background-color:cccccc}
-    list-style: none;
-    width: 300px;
-    text-align:right;
-    margin-right:5vw;
-    margin-bottom:5vw;
-    float:right;
+     float:left
 }
 
 .footer-col-wrapper {
