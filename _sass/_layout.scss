@@ -1,28 +1,29 @@
 .Coding{
     background-image:url(img/code.jpg);
-    background-position-x:50%;
+    background-position:center;
     width:75vw;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20vh;
+    margin-top: 70vh;
 }
 
 .Finance{
     background-image:url(img/finance.jpg);
-    background-position-x:50%;
+    background-position:center;
     width:75vw;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20vh;
+    margin-top: 70vh;
 }
 
 .Data{
     background-image:url(img/data.jpg);
-    background-position-x:50%;
+    background-position:center;
     width:75vw;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20vh;
+    margin-top: 70vh;
+    margin-bottom: 70vh;
 }
 
 
@@ -52,7 +53,6 @@
  * Site header
  */
 .site-header {
-    background-image: url("img/background.png");
     // Positioning context for the mobile navigation icon
     position: relative;
 }
