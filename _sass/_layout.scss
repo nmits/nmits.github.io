@@ -153,6 +153,41 @@
 }
 
 
+.ContentWrapper{
+    white-space:pre;
+    color: #ffffff;
+    margin: auto;
+    text-align:center;
+}
+
+.Coding{
+    visibility = hidden;
+    transition: visibility 400ms ease-in;
+}
+.Finance{
+    visibility = hidden;
+    transition: visibility 400ms ease-in;
+}
+.Data{
+    visibility = hidden;
+    transition: visibility 400ms ease-in;
+}
+
+.CodingLink:hover div.Coding {
+    visibility:visible;
+}
+
+
+.FinanceLink:hover div.Finance {
+    visibility:visible;
+}
+
+
+.DataLink:hover div.Data {
+    visibility:visible;
+}
+
+
 @media only screen and (max-device-width: 480px) {
     .profilepicture{
         width:50px;
