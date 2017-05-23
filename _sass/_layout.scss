@@ -15,7 +15,6 @@
     background-position:center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    margin-top: 25vh;
 }
 
 .CodingText{
@@ -85,6 +84,8 @@
     left: 0;
     color: #ffffff;
     box-sizing: border-box;
+    background-color: darkslategrey;
+    opacity: 0.7;
     padding: 0 0 0 20px;
     line-height: 40px;
     position: fixed;
