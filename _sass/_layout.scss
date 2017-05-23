@@ -58,6 +58,7 @@
             color: #dddddd;
             padding: 0 5px;
             margin: 0 5px;
+            cursor:pointer;
         }
 
         a:hover {
@@ -156,36 +157,37 @@
 .ContentWrapper{
     white-space:pre;
     color: #ffffff;
+    height:100vh;
     margin: auto;
     text-align:center;
 }
 
 .Coding{
-    visibility: hidden;
-    transition: visibility 400ms ease-in;
+    display:none;
+    transition: display 400ms ease-in;
 }
+
 .Finance{
-    visibility: hidden;
-    transition: visibility 400ms ease-in;
+    display:none;
+    transition: display 400ms ease-in;
 }
+
 .Data{
-    visibility: hidden;
-    transition: visibility 400ms ease-in;
-}
-
-.CodingLink:hover div.Coding {
-    visibility:visible;
+    display:none;
+    transition: display 400ms ease-in;
 }
 
 
-.FinanceLink:hover div.Finance {
-    visibility:visible;
+.CodingLink:focus + .Coding{
+    display:block;
+}
+.FinanceLink:hover + .Finance{
+    display:block;
+}
+.DataLink:hover + .Data{
+    display:block;
 }
 
-
-.DataLink:hover div.Data {
-    visibility:visible;
-}
 
 
 @media only screen and (max-device-width: 480px) {
