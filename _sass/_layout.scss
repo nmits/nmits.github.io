@@ -1,32 +1,29 @@
 .ContentWrapper{
     background-position:center;
     width:75vw;
-    heigh:75vh;
+    height:75vh;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50vh;
     padding-top: 20vh;
+    background-position-x: 50%;
 }
 
 .SchoolText{
-    border-style: solid;
     background-image:url("https://raw.githubusercontent.com/nmits/nmits.github.io/master/img/background.jpg");
 }
 
 .CodingText{
-    border-style: solid;
     background-image:url("https://raw.githubusercontent.com/nmits/nmits.github.io/master/img/code.jpg");
 }
 
 .FinanceText{
-    border-style: solid;
     background-image:url("https://raw.githubusercontent.com/nmits/nmits.github.io/master/img/finance.jpg");
 }
 
 .DataText{
-    border-style: solid;
     background-image:url("https://raw.githubusercontent.com/nmits/nmits.github.io/master/img/data.jpg");
-    margin-bottom: 70vh;
+    margin-bottom: 20vh;
 }
 
 .icons {
