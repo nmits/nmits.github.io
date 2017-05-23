@@ -1,36 +1,38 @@
-// Select all links with hashes
-$('a[href*="#"]')
-  // Remove links that don't actually link to anything
-  .not('[href="#"]')
-  .not('[href="#0"]')
-  .click(function(event) {
-    // On-page links
-    if (
-      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
-      &&
-      location.hostname == this.hostname
-    ) {
-      // Figure out element to scroll to
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      // Does a scroll target exist?
-      if (target.length) {
-        // Only prevent default if animation is actually gonna happen
-        event.preventDefault();
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000, function() {
-          // Callback after animation
-          // Must change focus!
-          var $target = $(target);
-          $target.focus();
-          if ($target.is(":focus")) { // Checking if the target was focused
-            return false;
-          } else {
-            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-            $target.focus(); // Set focus again
-          };
-        });
-      }
-    }
-  });
+$("document").ready(function() {
+
+$('.codingLink').click(function(){
+
+$('html, body').animate({
+scrollTop: $(".Coding").offset().top
+}, 1500);
+
+});
+
+$('.schoolLink').click(function(){
+
+$('html, body').animate({
+scrollTop: $(".School").offset().top
+}, 1500);
+
+});
+
+$('.financeLink').click(function(){
+
+$('html, body').animate({
+scrollTop: $(".Finance").offset().top
+}, 1500);
+
+});
+
+$('.dataLink').click(function(){
+
+$('html, body').animate({
+scrollTop: $(".Data").offset().top
+}, 1500);
+
+});
+
+
+
+
+});
