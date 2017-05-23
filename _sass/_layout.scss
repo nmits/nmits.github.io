@@ -9,6 +9,16 @@
     opacity: 0;
 }
 
+.action, .actions {
+    position: relative;
+}
+
+[data-animate-scroll].animate-scroll {
+    -webkit-transform: translate(0);
+    -ms-transform: translate(0);
+    transform: translate(0);
+    opacity: 1;
+
 .smoothScroll{
 }
 
