@@ -15,8 +15,8 @@ dl, dd, ol, ul, figure {
  */
 
 body {
-    webkit-animation: bgAnimation 20s ease infinite;
-    animation: bgAnimation 20s ease infinite;
+    webkit-animation: bgAnimation 15s ease infinite;
+    animation: bgAnimation 15s ease infinite;
     background: radial-gradient(ellipse at center, #ead27a, #c7ad72, #547266, #2f353A);
     background-size: 800% 800%;
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
@@ -29,6 +29,30 @@ body {
     font-feature-settings: "kern" 1;
     font-kerning: normal;
 }
+
+@-webkit-keyframes bgAnimation {
+  0% {
+    background-position: 75% 75%; }
+  25% {
+    background-position: 0 100%; }
+  50% {
+    background-position: 50% 50%; }
+  75% {
+    background-position: 25% 100%; }
+  100% {
+    background-position: 75% 75%; } }
+
+@keyframes bgAnimation {
+  0% {
+    background-position: 75% 75%; }
+  25% {
+    background-position: 0 100%; }
+  50% {
+    background-position: 50% 50%; }
+  75% {
+    background-position: 25% 100%; }
+  100% {
+    background-position: 75% 75%; } }
 
 
 
