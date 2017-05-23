@@ -14,9 +14,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    background-image:url(img/background.jpg);
-    background-position-x:50%;
-    background-size: 160% 100%;
+    background-image:url(img/vectorbg.png);
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
     background-color: $background-color;
