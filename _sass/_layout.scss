@@ -1,28 +1,22 @@
-.Coding{
-    background-image:url(img/code.jpg);
+.ContentWrapper{
     background-position:center;
     width:75vw;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 70vh;
+    margin-top: 50vh;
+    padding-top: 20vh;
+}
+
+.Coding{
+    background-image:url(img/code.jpg);
 }
 
 .Finance{
     background-image:url(img/finance.jpg);
-    background-position:center;
-    width:75vw;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 70vh;
 }
 
 .Data{
     background-image:url(img/data.jpg);
-    background-position:center;
-    width:75vw;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 70vh;
     margin-bottom: 70vh;
 }
 
