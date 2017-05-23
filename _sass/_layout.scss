@@ -1,36 +1,47 @@
 .ContentWrapper{
-    background-position:center;
-    width:75vw;
+    position: relative
+    width:80vw;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50vh;
     padding-top: 20vh;
-    background-position-x: 50%;
     word-wrap: normal;
     letter-spacing:3px;
 }
 
 .SchoolText{
     background-image:url("https://raw.githubusercontent.com/nmits/nmits.github.io/master/img/background.jpg");
+    background-size: cover;
+    background-position:center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
     margin-top: 25vh;
 }
 
 .CodingText{
     background-image:url("https://raw.githubusercontent.com/nmits/nmits.github.io/master/img/code.jpg");
+    background-size: cover;
+    background-position:center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
     margin-top: 25vh;
 }
 
 .FinanceText{
     background-image:url("https://raw.githubusercontent.com/nmits/nmits.github.io/master/img/finance.jpg");
+    background-size: cover;
+    background-position:center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
     margin-top: 25vh;
 }
 
 .DataText{
     background-image:url("https://raw.githubusercontent.com/nmits/nmits.github.io/master/img/data.jpg");
+    background-size: cover;
+    background-position:center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
     margin-top: 25vh;
 }
 
