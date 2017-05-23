@@ -8,14 +8,17 @@
 }
 
 .Coding{
+    border-style: solid;
     background-image:url(img/code.jpg);
 }
 
 .Finance{
+    border-style: solid;
     background-image:url(img/finance.jpg);
 }
 
 .Data{
+    border-style: solid;
     background-image:url(img/data.jpg);
     margin-bottom: 70vh;
 }
@@ -40,7 +43,7 @@
     border-radius: 50%;
     width:150px;
     height:150px;
-    float:right
+    float:right;
 }
 
 /**
@@ -170,7 +173,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
-    height: 800px
+    height: 800px;
 }
 
 .ContentWrapper{
