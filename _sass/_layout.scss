@@ -12,26 +12,22 @@
 
 .SchoolText{
     background-image:url("https://raw.githubusercontent.com/nmits/nmits.github.io/master/img/background.jpg");
-    height:75vh;
-    padding-top: 20vh;
+    margin-top: 25vh;
 }
 
 .CodingText{
     background-image:url("https://raw.githubusercontent.com/nmits/nmits.github.io/master/img/code.jpg");
-    height:75vh;
-    padding-top: 20vh;
+    margin-top: 25vh;
 }
 
 .FinanceText{
     background-image:url("https://raw.githubusercontent.com/nmits/nmits.github.io/master/img/finance.jpg");
-    height:75vh;
-    padding-top: 20vh;
+    margin-top: 25vh;
 }
 
 .DataText{
     background-image:url("https://raw.githubusercontent.com/nmits/nmits.github.io/master/img/data.jpg");
-    height:75vh;
-    padding-top: 20vh;
+    margin-top: 25vh;
     margin-bottom: 20vh;
 }
 
@@ -107,7 +103,6 @@
     padding: 0;
     border: 0;
     vertical-align: baseline;
-    -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     -webkit-padding-start: 40px;
@@ -192,7 +187,6 @@
     color: #ffffff;
     height:100vh;
     margin: auto;
-    text-align:center;
 }
 
 @media only screen and (max-device-width: 480px) {
