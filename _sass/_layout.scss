@@ -1,3 +1,30 @@
+.Coding{
+    background-image:url(img/code.jpg);
+    background-position-x:50%;
+    width:75vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+}
+
+.Finance{
+    background-image:url(img/finance.jpg);
+    background-position-x:50%;
+    width:75vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+}
+
+.Data{
+    background-image:url(img/data.jpg);
+    background-position-x:50%;
+    width:75vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+}
+
 
 .icons {
     height:20px;
@@ -58,7 +85,6 @@
             color: #dddddd;
             padding: 0 5px;
             margin: 0 5px;
-            cursor:pointer;
         }
 
         a:hover {
@@ -153,7 +179,6 @@
     height: 800px
 }
 
-
 .ContentWrapper{
     white-space:pre;
     color: #ffffff;
@@ -161,34 +186,6 @@
     margin: auto;
     text-align:center;
 }
-
-.Coding{
-    display:none;
-    transition: display 400ms ease-in;
-}
-
-.Finance{
-    display:none;
-    transition: display 400ms ease-in;
-}
-
-.Data{
-    display:none;
-    transition: display 400ms ease-in;
-}
-
-
-.CodingLink:focus + .Coding{
-    display:block;
-}
-.FinanceLink:hover + .Finance{
-    display:block;
-}
-.DataLink:hover + .Data{
-    display:block;
-}
-
-
 
 @media only screen and (max-device-width: 480px) {
     .profilepicture{
