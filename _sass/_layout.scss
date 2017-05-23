@@ -1,12 +1,11 @@
 .ContentWrapper{
-    position: relative;
     width:vw;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50vh;
-    padding-top: 14vh;
     word-wrap: normal;
     letter-spacing:3px;
+    z-index:0;
 }
 
 .SchoolText{
@@ -142,6 +141,7 @@
     margin-left: 1vw;
     width: 300px;
     float:left;
+    z-index:1;
 
     a{
         transition: filter 400ms ease-out;
