@@ -1,6 +1,7 @@
 .ContentWrapper{
     background-position:center;
     width:75vw;
+    heigh:75vh;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50vh;
@@ -9,22 +10,22 @@
 
 .School{
     border-style: solid;
-    background-image:url(img/background.jpg);
+    background-image:url(img/bg/background.jpg);
 }
 
 .Coding{
     border-style: solid;
-    background-image:url(img/code.jpg);
+    background-image:url(img/bg/code.jpg);
 }
 
 .Finance{
     border-style: solid;
-    background-image:url(img/finance.jpg);
+    background-image:url(img/bg/finance.jpg);
 }
 
 .Data{
     border-style: solid;
-    background-image:url(img/data.jpg);
+    background-image:url(img/bg/data.jpg);
     margin-bottom: 70vh;
 }
 
