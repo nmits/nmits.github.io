@@ -1,38 +1,37 @@
-$("document").ready(function() {
 
-$('.codingLink').click(function(){
+$( '#codingLink' ).on('click', function(event) {
+        event.preventDefault();
+        var target = $(this).parents().attr("href");
+        alert(target);
+            $('html, body').animate({
+            scrollTop: $(target).offset().top;
+        }, 1500);
+ });
 
-$('html, body').animate({
-scrollTop: $(".Coding").offset().top
-}, 1500);
+ $( '#schoolLink' ).on('click', function(event) {
+            event.preventDefault();
+            var target = $(this).parents().attr("href");
+            alert(target);
+                $('html, body').animate({
+                scrollTop: $(target).offset().top;
+            }, 1500);
+     });
 
-});
+$( '#dataLink' ).on('click', function(event) {
+        event.preventDefault();
+        var target = $(this).parents().attr("href");
+        alert(target);
+            $('html, body').animate({
+            scrollTop: $(target).offset().top;
+        }, 1500);
+ });
 
-$('.schoolLink').click(function(){
+ $( '#financeLink' ).on('click', function(event) {
+         event.preventDefault();
+         var target = $(this).parents().attr("href");
+         alert(target);
+             $('html, body').animate({
+             scrollTop: $(target).offset().top;
+         }, 1500);
+  });
 
-$('html, body').animate({
-scrollTop: $(".School").offset().top
-}, 1500);
-
-});
-
-$('.financeLink').click(function(){
-
-$('html, body').animate({
-scrollTop: $(".Finance").offset().top
-}, 1500);
-
-});
-
-$('.dataLink').click(function(){
-
-$('html, body').animate({
-scrollTop: $(".Data").offset().top
-}, 1500);
-
-});
-
-
-
-
-});
