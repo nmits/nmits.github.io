@@ -266,9 +266,9 @@
   37.5% {transform:translate3d(0,-37.5%,0);}
   50% {transform:translate3d(0,-50%,0);}
   67.5% {transform:translate3d(0,-67.5%,0);}
-  75% {transform:translate3d(0,-75%,0);}
+  75% {transform:translate3d(0,-73%,0);}
   87.5% {transform:translate3d(0,-87.5%,0);}
-      100% {transform:translate3d(0,0,0);}
+  100% {transform:translate3d(0,-87.5%,0);}
 }
 
 @-o-keyframes opacity {
@@ -283,10 +283,9 @@
     37.5% {transform:translate3d(0,-37.5%,0);}
     50% {transform:translate3d(0,-50%,0);}
     67.5% {transform:translate3d(0,-67.5%,0);}
-    75% {transform:translate3d(0,-75%,0);}
+    75% {transform:translate3d(0,-73%,0);}
     87.5% {transform:translate3d(0,-87.5%,0);}
-    87.5% {transform:translate3d(0,0,0);}
-      100% {transform:translate3d(0,0,0);}
+    100% {transform:translate3d(0,-87.5%,0);}
 }
 
 @-moz-keyframes opacity {
@@ -301,9 +300,9 @@
     37.5% {transform:translate3d(0,-37.5%,0);}
     50% {transform:translate3d(0,-50%,0);}
     67.5% {transform:translate3d(0,-67.5%,0);}
-    75% {transform:translate3d(0,-75%,0);}
+    75% {transform:translate3d(0,-73%,0);}
     87.5% {transform:translate3d(0,-87.5%,0);}
-      100% {transform:translate3d(0,0,0);}
+    100% {transform:translate3d(0,-87.5,0);}
 }
 
 @keyframes opacity {
@@ -318,9 +317,9 @@
       37.5% {transform:translate3d(0,-37.5%,0);}
       50% {transform:translate3d(0,-50%,0);}
       67.5% {transform:translate3d(0,-67.5%,0);}
-      75% {transform:translate3d(0,-75%,0);}
+      75% {transform:translate3d(0,-73%,0);}
       87.5% {transform:translate3d(0,-87.5%,0);}
-      100% {transform:translate3d(0,0,0);}
+      100% {transform:translate3d(0,-87.5%,0);}
 }
 
 
