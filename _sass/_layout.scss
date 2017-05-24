@@ -1,3 +1,4 @@
+/**
 [data-animate-scroll] {
     -webkit-transition: opacity 2s cubic-bezier(.075,.82,.165,1),-webkit-transform 1s cubic-bezier(.075,.82,.165,1);
     transition: opacity 2s cubic-bezier(.075,.82,.165,1),-webkit-transform 1s cubic-bezier(.075,.82,.165,1);
@@ -19,6 +20,7 @@
     transform: translate(0);
     opacity: 1;
 }
+*/
 
 .ContentWrapper{
     width:vw;
@@ -213,29 +215,6 @@
 }
 
 
-@include media-query($on-laptop) {
-    .footer-col-1,
-    .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
-    }
-
-    .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
-
-@include media-query($on-palm) {
-    .footer-col {
-        float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
-
-
-
 /**
  * Page content
  */
@@ -258,9 +237,10 @@
   transform: translate(-50%, -50%);
   overflow:hidden;
 
-  font-family: 'Kumar One', cursive;
+  font-family: 'Lato', sans-serif;
   font-size: 35px;
   line-height: 40px;
+  list-style-type: none;
 
   &__container {
     font-weight: 600;
