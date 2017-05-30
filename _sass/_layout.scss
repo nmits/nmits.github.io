@@ -23,7 +23,7 @@
     background-position:center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    margin-top: 25vh;
+    margin-top: 30vh;
 }
 
 .FinanceText{
@@ -32,7 +32,7 @@
     background-position:center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    margin-top: 25vh;
+    margin-top: 30vh;
 }
 
 .DataText{
@@ -41,7 +41,7 @@
     background-position:center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    margin-top: 25vh;
+    margin-top: 30vh;
 }
 
 .icons {
@@ -83,10 +83,10 @@
     width: 30vw;
     margin-left: 35vw;
     margin-right: 35vw;
-    margin-top: 25vh;
+    margin-top: 30vh;
 }
 
-.titles p{
+.titles h1{
     color: #FFF;
     text-align: center;
     padding: 20px;
@@ -197,6 +197,10 @@
 .page-content {
     padding: $spacing-unit 0;
 
+    h1{
+        font-variant: small-caps;
+    }
+
     h2{
         padding-left:15%;
         font-weight:bold;
@@ -206,11 +210,12 @@
     p{
         padding-left:20%;
         width:30%
+        line-height: 150%;
     }
 }
 
 .ContentWrapper{
-    white-space:pre;
+    line-height: 400%;
     color: #ffffff;
     height:100vh;
     margin: auto;
