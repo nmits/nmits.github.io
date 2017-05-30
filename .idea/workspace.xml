@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="60cbc26d-edba-4778-8343-2eda46a50cf3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_layout.scss" afterPath="$PROJECT_DIR$/_sass/_layout.scss" />
     </list>
     <list id="57459575-d0d8-487a-81e8-5d566e99963a" name="Rejected commit: Default" comment="Picture updates&#10;" />
@@ -22,8 +24,8 @@
       <file leaf-file-name="_layout.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_sass/_layout.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="211" column="18" lean-forward="false" selection-start-line="211" selection-start-column="18" selection-end-line="211" selection-end-column="18" />
+            <state relative-caret-position="-187">
+              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -72,8 +74,8 @@
       <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            <state relative-caret-position="620">
+              <caret line="42" column="4" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -82,8 +84,8 @@
       <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            <state relative-caret-position="144">
+              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -104,6 +106,7 @@
       <find>JINTOS</find>
       <find>content</find>
       <find>line</find>
+      <find>150%</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -131,12 +134,12 @@
         <option value="$PROJECT_DIR$/_includes/icon-gps.html" />
         <option value="$PROJECT_DIR$/css/main.scss" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
-        <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/js/smoothscroll.js" />
         <option value="$PROJECT_DIR$/_sass/_base.scss" />
-        <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_sass/_layout.scss" />
+        <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/_includes/header.html" />
       </list>
     </option>
   </component>
@@ -696,13 +699,6 @@
       <option name="presentableId" value="Default" />
       <updated>1495322493412</updated>
     </task>
-    <task id="LOCAL-00183" summary="Made background move">
-      <created>1495537428919</created>
-      <option name="number" value="00183" />
-      <option name="presentableId" value="LOCAL-00183" />
-      <option name="project" value="LOCAL" />
-      <updated>1495537428919</updated>
-    </task>
     <task id="LOCAL-00184" summary="Made background move">
       <created>1495571431740</created>
       <option name="number" value="00184" />
@@ -1039,7 +1035,14 @@
       <option name="project" value="LOCAL" />
       <updated>1496130665528</updated>
     </task>
-    <option name="localTasksCounter" value="232" />
+    <task id="LOCAL-00232" summary="Aesthetic updates">
+      <created>1496130754444</created>
+      <option name="number" value="00232" />
+      <option name="presentableId" value="LOCAL-00232" />
+      <option name="project" value="LOCAL" />
+      <updated>1496130754444</updated>
+    </task>
+    <option name="localTasksCounter" value="233" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1410,10 +1413,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        <state relative-caret-position="620">
+          <caret line="42" column="4" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -1426,26 +1445,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_sass/_layout.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="211" column="18" lean-forward="false" selection-start-line="211" selection-start-column="18" selection-end-line="211" selection-end-column="18" />
+        <state relative-caret-position="-187">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
           <folding />
         </state>
       </provider>
