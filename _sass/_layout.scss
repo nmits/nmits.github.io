@@ -196,7 +196,11 @@
  */
 .page-content {
     padding: $spacing-unit 0;
-    height: 800px;
+
+    h2{
+        font-weight:bold;
+         font-variant: small-caps;
+    }
 }
 
 .ContentWrapper{
