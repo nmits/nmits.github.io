@@ -219,6 +219,14 @@ p.codeSnippet{
     height:100vh;
     margin: auto;
     margin-top: 15vh;
+
+    a{
+        transition: filter 400ms ease-out;
+    }
+
+    a:hover{
+        filter: invert(50%);
+    }
 }
 
 .content {
