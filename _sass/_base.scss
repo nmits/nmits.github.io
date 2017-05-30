@@ -15,9 +15,9 @@ dl, dd, ol, ul, figure {
  */
 
 body {
-    webkit-animation: bgAnimation 15s ease infinite;
+    webkit-animation: bgAnimation 12.5s ease infinite;
     animation: bgAnimation 15s ease infinite;
-    background: radial-gradient(ellipse at center, #EAD27A, #C7AD72, #C41E3A, #FFD700));
+    background: radial-gradient(ellipse at center, #EAD27A, #C7AD72, #C41E3A, #FFD700);
     background-size: 400% 400%;
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
