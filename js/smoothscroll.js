@@ -1,4 +1,4 @@
-
+/*
 $( '#codingLink' ).on('click', function(event) {
         event.preventDefault();
         var target = $(this).parents().attr("href");
@@ -34,11 +34,29 @@ $( '#dataLink' ).on('click', function(event) {
              scrollTop: $(target).offset().top;
          }, 1500);
   });
+*/
 
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
 
-/**
-0%, 12.66%, 16.66%, 100% {transform:translate3d(0,0,0);}
-  29.32%, 33.32%, 45.98% {transform:translate3d(0,-25%,0);}
-  49.98%,62.64%, 66.64% {transform:translate3d(0,-50%,0);}
-  79.3%, 83.3%, 95.96% {transform:translate3d(0,-75%,0);}
-  */
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1000, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
