@@ -198,8 +198,14 @@
     padding: $spacing-unit 0;
 
     h2{
+        padding-left:15%;
         font-weight:bold;
-         font-variant: small-caps;
+        font-variant: small-caps;
+    }
+
+    p{
+        padding-left:20%;
+        width:30%
     }
 }
 
