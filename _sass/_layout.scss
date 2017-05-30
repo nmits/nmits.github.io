@@ -16,7 +16,7 @@
     background-repeat: no-repeat;
     margin-top: 30vh;
     padding-left:25%
-    width:100%
+    width:100%;
 }
 
 .SchoolText{
@@ -334,6 +334,8 @@
 
 
 @media only screen and (max-device-width: 480px) {
+    $base-font-size:   10px;
+
     .profilepicture{
         width:50px;
         height:50%;
