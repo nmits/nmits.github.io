@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60cbc26d-edba-4778-8343-2eda46a50cf3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/background.jpg" afterPath="$PROJECT_DIR$/img/background.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/code.jpg" afterPath="$PROJECT_DIR$/img/code.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/data.jpg" afterPath="$PROJECT_DIR$/img/data.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/finance.jpg" afterPath="$PROJECT_DIR$/img/finance.jpg" />
@@ -35,8 +34,8 @@
       <file leaf-file-name="smoothscroll.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/smoothscroll.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="43" column="4" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+            <state relative-caret-position="340">
+              <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -698,13 +697,6 @@
       <option name="presentableId" value="Default" />
       <updated>1495322493412</updated>
     </task>
-    <task id="LOCAL-00173" summary="Adding content">
-      <created>1495532188823</created>
-      <option name="number" value="00173" />
-      <option name="presentableId" value="LOCAL-00173" />
-      <option name="project" value="LOCAL" />
-      <updated>1495532188823</updated>
-    </task>
     <task id="LOCAL-00174" summary="Adding content">
       <created>1495533202100</created>
       <option name="number" value="00174" />
@@ -1041,7 +1033,14 @@
       <option name="project" value="LOCAL" />
       <updated>1496085351278</updated>
     </task>
-    <option name="localTasksCounter" value="222" />
+    <task id="LOCAL-00222" summary="Scrolling intro">
+      <created>1496126028669</created>
+      <option name="number" value="00222" />
+      <option name="presentableId" value="LOCAL-00222" />
+      <option name="project" value="LOCAL" />
+      <updated>1496126028669</updated>
+    </task>
+    <option name="localTasksCounter" value="223" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1445,8 +1444,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/smoothscroll.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="43" column="4" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+        <state relative-caret-position="340">
+          <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
           <folding />
         </state>
       </provider>
