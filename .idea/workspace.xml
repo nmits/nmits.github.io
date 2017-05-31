@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="60cbc26d-edba-4778-8343-2eda46a50cf3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_layout.scss" afterPath="$PROJECT_DIR$/_sass/_layout.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
     </list>
     <list id="57459575-d0d8-487a-81e8-5d566e99963a" name="Rejected commit: Default" comment="Picture updates&#10;" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +19,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_layout.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_layout.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/_layout.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="225" column="0" lean-forward="false" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
+            <state relative-caret-position="221">
+              <caret line="214" column="0" lean-forward="true" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -60,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="head.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="459">
+              <caret line="27" column="2" lean-forward="false" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -143,13 +142,13 @@
         <option value="$PROJECT_DIR$/_includes/icon-linkedin.html" />
         <option value="$PROJECT_DIR$/_includes/icon-gps.html" />
         <option value="$PROJECT_DIR$/css/main.scss" />
-        <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/js/smoothscroll.js" />
         <option value="$PROJECT_DIR$/_sass/_base.scss" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_sass/_layout.scss" />
+        <option value="$PROJECT_DIR$/_includes/head.html" />
       </list>
     </option>
   </component>
@@ -709,13 +708,6 @@
       <option name="presentableId" value="Default" />
       <updated>1495322493412</updated>
     </task>
-    <task id="LOCAL-00198" summary="Smoothing scrolling">
-      <created>1495577213534</created>
-      <option name="number" value="00198" />
-      <option name="presentableId" value="LOCAL-00198" />
-      <option name="project" value="LOCAL" />
-      <updated>1495577213534</updated>
-    </task>
     <task id="LOCAL-00199" summary="Smoothing scrolling">
       <created>1495578756148</created>
       <option name="number" value="00199" />
@@ -1052,7 +1044,14 @@
       <option name="project" value="LOCAL" />
       <updated>1496183663170</updated>
     </task>
-    <option name="localTasksCounter" value="247" />
+    <task id="LOCAL-00247" summary="Adding content">
+      <created>1496184553712</created>
+      <option name="number" value="00247" />
+      <option name="presentableId" value="LOCAL-00247" />
+      <option name="project" value="LOCAL" />
+      <updated>1496184553712</updated>
+    </task>
+    <option name="localTasksCounter" value="248" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1408,14 +1407,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1458,8 +1449,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_sass/_layout.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="225" column="0" lean-forward="false" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
+        <state relative-caret-position="221">
+          <caret line="214" column="0" lean-forward="true" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="2" lean-forward="false" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
           <folding />
         </state>
       </provider>
