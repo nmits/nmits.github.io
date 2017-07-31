@@ -353,6 +353,10 @@ p.codeSnippet{
 @media only screen and (max-device-width: 480px) {
     $base-font-size: 10px;
 
+    .body{
+        min-width:250%;
+    }
+
     .page-content h1{
         font-size: 12px;
     }
