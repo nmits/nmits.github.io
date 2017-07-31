@@ -352,14 +352,24 @@ p.codeSnippet{
 @media only screen and (max-device-width: 480px) {
     $base-font-size: 10px;
 
-    .profilepicture{
-        width:50px;
-        height:50%;
+    .icons {
+        height:10px;
+        width:10px;
+        padding:5px;
     }
 
-    .self{
-        width:15vw;
-        height:15vw;
+    .profilepicture {
+        float: right;
+        width:100px;
+        height:100px;
+        margin-top: 1.5vw;
+        margin-right: 1.5vw;
+    }
+
+    .self {
+        width:100px;
+        height:100px;
+        float:right;
     }
 
     .contact-list{
@@ -383,4 +393,34 @@ p.codeSnippet{
     .titles h1{
         font-size: 24px;
     }
+
+    .site-footer {
+        height: 20px;
+        padding: 0 0 0 5px;
+        line-height: 20px;
+    }
+
+    .site-footer > nav{
+            letter-spacing:3px;
+            height: 20px;
+            a {
+                padding: 0 2.5px;
+                margin: 0 2.5px;
+            }
+    }
+
+    .site-footer > ul{
+        -webkit-padding-start: 20px;
+        float: left;
+
+    }
+
+    .site-footer > ul > li {
+        width: 20px;
+        float: left;
+
+    }
+
+
+
 }
