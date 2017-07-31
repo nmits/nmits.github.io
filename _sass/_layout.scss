@@ -351,8 +351,6 @@ p.codeSnippet{
 
 @media only screen and (max-device-width: 480px) {
     $base-font-size: 10px;
-    font-size: 12px;
-
 
     .h1{
         font-size: 12px;
@@ -393,15 +391,15 @@ p.codeSnippet{
         display: none;
     }
 
+    .page-content > p{
+        font-size: 12px;
+    }
+
     .site-footer > nav{
         width: 0px;
         height: 0px;
         visibility: hidden;
         display: none;
-    }
-
-    .titles h1{
-        font-size: 24px;
     }
 
     .site-footer {

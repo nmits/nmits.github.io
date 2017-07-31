@@ -22,8 +22,8 @@
       <file leaf-file-name="_layout.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_sass/_layout.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="363" column="0" lean-forward="true" selection-start-line="363" selection-start-column="0" selection-end-line="363" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="357" column="0" lean-forward="true" selection-start-line="357" selection-start-column="0" selection-end-line="357" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -650,13 +650,6 @@
       <option name="presentableId" value="Default" />
       <updated>1495322493412</updated>
     </task>
-    <task id="LOCAL-00204" summary="Smoothing scrolling">
-      <created>1495585867625</created>
-      <option name="number" value="00204" />
-      <option name="presentableId" value="LOCAL-00204" />
-      <option name="project" value="LOCAL" />
-      <updated>1495585867625</updated>
-    </task>
     <task id="LOCAL-00205" summary="Smoothing scrolling">
       <created>1495586177771</created>
       <option name="number" value="00205" />
@@ -993,7 +986,14 @@
       <option name="project" value="LOCAL" />
       <updated>1501539095336</updated>
     </task>
-    <option name="localTasksCounter" value="253" />
+    <task id="LOCAL-00253" summary="Updating relative styling">
+      <created>1501540330388</created>
+      <option name="number" value="00253" />
+      <option name="presentableId" value="LOCAL-00253" />
+      <option name="project" value="LOCAL" />
+      <updated>1501540330388</updated>
+    </task>
+    <option name="localTasksCounter" value="254" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1085,7 +1085,8 @@
     <MESSAGE value="Adding content" />
     <MESSAGE value="Added Google Analytics" />
     <MESSAGE value="Added relative styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added relative styling" />
+    <MESSAGE value="Updating relative styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating relative styling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1404,8 +1405,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_sass/_layout.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="363" column="0" lean-forward="true" selection-start-line="363" selection-start-column="0" selection-end-line="363" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="357" column="0" lean-forward="true" selection-start-line="357" selection-start-column="0" selection-end-line="357" selection-end-column="0" />
           <folding />
         </state>
       </provider>
