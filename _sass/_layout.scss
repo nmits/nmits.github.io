@@ -15,7 +15,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     margin-top: 30vh;
-    padding-left:25%;
+    padding-left:5%;
     width:100%;
 }
 
@@ -351,6 +351,16 @@ p.codeSnippet{
 
 @media only screen and (max-device-width: 480px) {
     $base-font-size: 10px;
+    font-size: 12px;
+
+
+    .h1{
+        font-size: 12px;
+    }
+
+    .punch-viewer-body-v2{
+        width:90%
+    }
 
     .icons {
         height:10px;
@@ -410,7 +420,7 @@ p.codeSnippet{
     }
 
     .site-footer > ul{
-        -webkit-padding-start: 20px;
+        -webkit-padding-start: 0px;
         float: left;
 
     }
