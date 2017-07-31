@@ -441,14 +441,15 @@ p.codeSnippet{
 
     .content {
       font-size: large;
-      margin-left: 0;
-      margin-right: 0;
       width:100vw;
 
       &__container {
             font-weight: 600;
             height: 40px;
             padding: 0 20px;
+            margin-left: 0;
+            margin-right: 0;
+
 
         &__text {
         }
