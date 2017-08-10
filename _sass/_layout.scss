@@ -236,8 +236,6 @@ p.codeSnippet{
       line-height: 40px;
       list-style-type: none;
       padding-top: 44vh;
-      margin-left: auto;
-      margin-right: auto;
 
   &__container {
         font-weight: 600;
@@ -245,11 +243,10 @@ p.codeSnippet{
         height: 40px;
         padding: 30px 30px;
         margin: auto;
-        /* padding-top: 50%; */
         color: white;
         background-color: darkslategray;
         opacity: 0.4;
-        width: 744px;
+        width: min-content;
 
     &__text {
         display: inline;
@@ -259,7 +256,7 @@ p.codeSnippet{
 
     &__list {
       margin-top: 0;
-      padding-left: 323px;
+      padding-left: 345px;
       text-align: left;
       list-style: none;
       color: slategrey;
@@ -453,12 +450,13 @@ p.codeSnippet{
             height: 40px;
             padding: 0 20px;
             max-width: 80%;
+            width: min-content;
 
         &__text {
         }
 
         &__list {
-          padding-left: 25vw;
+          padding-left: 108px;
 
           &__item {
             line-height:40px;
