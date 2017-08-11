@@ -21,19 +21,19 @@
 }
 
 .SchoolText{
-    background-image:url("https://raw.githubusercontent.com/nmits/nmits.github.io/master/img/background.jpg");
+    background-image:url("../img/background.jpg");
 }
 
 .CodingText{
-    background-image:url("https://raw.githubusercontent.com/nmits/nmits.github.io/master/img/code.jpg");
+    background-image:url("../img/code.jpg");
     }
 
 .FinanceText{
-    background-image:url("https://raw.githubusercontent.com/nmits/nmits.github.io/master/img/finance.jpg");
+    background-image:url("../img/finance.jpg");
     }
 
 .DataText{
-    background-image:url("https://raw.githubusercontent.com/nmits/nmits.github.io/master/img/data.jpg");
+    background-image:url("../img/data.jpg");
     margin-bottom: 40px;
 }
 
@@ -299,7 +299,7 @@ iframe.datatraffic{
 }
 
 .chart{
-    width:90%
+    max-width:90%
 }
 
 
