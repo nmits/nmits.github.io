@@ -437,7 +437,8 @@ iframe.example{
 
     p.codeSnippet{
         font-size: 10px;
-        width:90%
+        max-width:90%
+        min-width:80%
     }
 
     .site-footer > nav{
