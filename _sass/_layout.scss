@@ -279,7 +279,7 @@ p.codeSnippet{
     position: relative;
     width: 100%;
     height: 0;
-    padding-bottom: 34.25%;
+    padding-bottom: 30%;
 }
 
 iframe.example{
@@ -478,12 +478,14 @@ iframe.datatraffic{
             padding: 0 20px;
             max-width: 80%;
             width: min-content;
+            font-size: initial;
 
         &__text {
         }
 
         &__list {
           padding-left: 108px;
+          float: right;
 
           &__item {
             line-height:40px;
