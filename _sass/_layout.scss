@@ -10,13 +10,14 @@
 }
 
 .ContentBox{
-    background-size: auto;
+    background-size: cover;
     background-position:center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     margin-top: 30vh;
     padding-left:5%;
     width:100%;
+    min-height:100%
 }
 
 .SchoolText{
@@ -442,14 +443,11 @@ iframe.datatraffic{
     }
 
     .site-footer {
-        height: 20px;
         padding: 0 0 0 5px;
-        line-height: 20px;
     }
 
     .site-footer > nav{
             letter-spacing:3px;
-            height: 20px;
             a {
                 padding: 0 2.5px;
                 margin: 0 2.5px;
@@ -463,7 +461,6 @@ iframe.datatraffic{
     }
 
     .site-footer > ul > li {
-        width: 20px;
         float: left;
 
     }
