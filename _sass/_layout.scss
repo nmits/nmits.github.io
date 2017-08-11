@@ -298,9 +298,10 @@ iframe.datatraffic{
     max-height: 305px;
 }
 
-canvas{
-    max-width:90%
+.chart{
+    width:90%
 }
+
 
 @-webkit-keyframes opacity {
   0%, 100% {opacity:0;}
@@ -398,8 +399,8 @@ canvas{
 
     .icons {
         padding:5px;
-        height:30px;
-        width:30px;
+        height:20px;
+        width:20px;
     }
 
     .profilepicture {
