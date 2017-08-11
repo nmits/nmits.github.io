@@ -275,6 +275,13 @@ p.codeSnippet{
   }
 }
 
+.example{
+    height: fit-content;
+    width: fit-content;
+    max-width: 90vw;
+    max-height: 60vh;
+}
+
 @-webkit-keyframes opacity {
   0%, 100% {opacity:0;}
   50% {opacity:1;}
