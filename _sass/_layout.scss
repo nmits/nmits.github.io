@@ -275,11 +275,20 @@ p.codeSnippet{
   }
 }
 
-iframe.example{
-    height: fit-content;
-    width: fit-content;
+.framecontainer{
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
     max-width: 90vw;
     max-height: 60vh;
+}
+iframe.example{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 @-webkit-keyframes opacity {
