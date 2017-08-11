@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="60cbc26d-edba-4778-8343-2eda46a50cf3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_layout.scss" afterPath="$PROJECT_DIR$/_sass/_layout.scss" />
     </list>
     <list id="57459575-d0d8-487a-81e8-5d566e99963a" name="Rejected commit: Default" comment="Picture updates&#10;" />
@@ -24,8 +23,8 @@
       <file leaf-file-name="_layout.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_sass/_layout.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="301" column="8" lean-forward="false" selection-start-line="301" selection-start-column="8" selection-end-line="301" selection-end-column="8" />
+            <state relative-caret-position="154">
+              <caret line="284" column="0" lean-forward="true" selection-start-line="284" selection-start-column="0" selection-end-line="284" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -660,13 +659,6 @@
       <option name="presentableId" value="Default" />
       <updated>1495322493412</updated>
     </task>
-    <task id="LOCAL-00235" summary="Aesthetic updates">
-      <created>1496132178669</created>
-      <option name="number" value="00235" />
-      <option name="presentableId" value="LOCAL-00235" />
-      <option name="project" value="LOCAL" />
-      <updated>1496132178669</updated>
-    </task>
     <task id="LOCAL-00236" summary="Adding content">
       <created>1496133845662</created>
       <option name="number" value="00236" />
@@ -1003,7 +995,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502477951701</updated>
     </task>
-    <option name="localTasksCounter" value="284" />
+    <task id="LOCAL-00284" summary="Fixing mobile site">
+      <created>1502478191882</created>
+      <option name="number" value="00284" />
+      <option name="presentableId" value="LOCAL-00284" />
+      <option name="project" value="LOCAL" />
+      <updated>1502478191882</updated>
+    </task>
+    <option name="localTasksCounter" value="285" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1407,8 +1406,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_sass/_layout.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="301" column="8" lean-forward="false" selection-start-line="301" selection-start-column="8" selection-end-line="301" selection-end-column="8" />
+        <state relative-caret-position="154">
+          <caret line="284" column="0" lean-forward="true" selection-start-line="284" selection-start-column="0" selection-end-line="284" selection-end-column="0" />
           <folding />
         </state>
       </provider>
