@@ -231,7 +231,6 @@ p.codeSnippet{
 }
 
 .content {
-      position: relative;
       font-family: 'Lato', sans-serif;
       font-size: 47px;
       line-height: 40px;
@@ -256,7 +255,6 @@ p.codeSnippet{
     }
 
     &__list {
-      margin-top: -40px;
       padding-left: 345px;
       text-align: left;
       list-style: none;
