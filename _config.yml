@@ -2,7 +2,7 @@
 encoding: UTF-8
 
 title: Noah Mitsuhashi
-email: nmitsuha@usc.edu
+email: me@noahmitsuhashi.io
 description: > # this means to ignore newlines until "baseurl:"
   Noah Mitsuhashi personal site
 baseurl: "" # the subpath of your site, e.g. /blog
