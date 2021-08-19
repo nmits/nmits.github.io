@@ -9,7 +9,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: noahmitsuhashi.io
 github_username:  nmits
 linkedin_username:  nmits
-twitter_username: nmitsuha
+twitter_username: noahmits
+crunchbase_username: noah-mitsuhashi
 
 # Build settings
 markdown: kramdown
