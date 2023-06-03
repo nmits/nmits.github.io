@@ -247,6 +247,7 @@ p.codeSnippet{
         color: white;
         background-color: darkslategray;
         opacity: 0.4;
+        width: min-content;
 
     &__text {
         display: inline;
