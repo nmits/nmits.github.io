@@ -16,10 +16,10 @@ dl, dd, ol, ul, figure {
 
 body {
     overflow-x: hidden;
-    webkit-animation: bgAnimation 12.5s ease infinite;
-    animation: bgAnimation 12.5s ease infinite;
-    background: radial-gradient(ellipse at center, #EAD27A, #C7AD72, #C41E3A, #FFD700);
-    background-size: 400% 400%;
+//     webkit-animation: bgAnimation 12.5s ease infinite;
+//     animation: bgAnimation 12.5s ease infinite;
+//     background: radial-gradient(ellipse at center, #EAD27A, #C7AD72, #C41E3A, #FFD700);
+//     background-size: 400% 400%;
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
     background-color: $background-color;
@@ -33,29 +33,29 @@ body {
     -moz-osx-font-smoothing:grayscaale;
 }
 
-@-webkit-keyframes bgAnimation {
-  0% {
-    background-position: 75% 75%; }
-  25% {
-    background-position: 0 100%; }
-  50% {
-    background-position: 50% 50%; }
-  75% {
-    background-position: 25% 100%; }
-  100% {
-    background-position: 75% 75%; } }
+// @-webkit-keyframes bgAnimation {
+//   0% {
+//     background-position: 75% 75%; }
+//   25% {
+//     background-position: 0 100%; }
+//   50% {
+//     background-position: 50% 50%; }
+//   75% {
+//     background-position: 25% 100%; }
+//   100% {
+//     background-position: 75% 75%; } }
 
-@keyframes bgAnimation {
-  0% {
-    background-position: 75% 75%; }
-  25% {
-    background-position: 0 100%; }
-  50% {
-    background-position: 50% 50%; }
-  75% {
-    background-position: 25% 100%; }
-  100% {
-    background-position: 75% 75%; } }
+// @keyframes bgAnimation {
+//   0% {
+//     background-position: 75% 75%; }
+//   25% {
+//     background-position: 0 100%; }
+//   50% {
+//     background-position: 50% 50%; }
+//   75% {
+//     background-position: 25% 100%; }
+//   100% {
+//     background-position: 75% 75%; } }
 
 
 
