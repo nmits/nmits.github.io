@@ -478,8 +478,7 @@ iframe.example{
             font-weight: 600;
             height: 40px;
             padding: 0 20px;
-            max-width: 80%;
-            width: min-content;
+            min-width: 80vw;
             font-size: initial;
 
         &__text {
@@ -494,6 +493,16 @@ iframe.example{
             margin:0 0 3px 0;
           }
         }
+      }
+    }
+
+}
+
+@media only screen and (max-device-width: 480px) {
+    .content {
+
+      &__container {
+            font-size: 12px;
       }
     }
 
