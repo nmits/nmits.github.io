@@ -236,6 +236,7 @@ p.codeSnippet{
       line-height: 40px;
       list-style-type: none;
       padding-top: 44vh;
+      max-width: min-content;
 
   &__container {
         font-weight: 600;
@@ -246,7 +247,6 @@ p.codeSnippet{
         color: white;
         background-color: darkslategray;
         opacity: 0.4;
-        width: min-content;
 
     &__text {
         display: inline;
@@ -471,7 +471,6 @@ iframe.example{
 
     .content {
       font-size: large;
-      width:100vw;
 
       &__container {
             padding: 0 20px;
