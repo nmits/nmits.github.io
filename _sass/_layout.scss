@@ -236,7 +236,6 @@ p.codeSnippet{
       line-height: 40px;
       list-style-type: none;
       padding-top: 44vh;
-      max-width: min-content;
 
   &__container {
         font-weight: 600;
@@ -247,6 +246,7 @@ p.codeSnippet{
         color: white;
         background-color: darkslategray;
         opacity: 0.4;
+        max-width: min-content;
 
     &__text {
         display: inline;
@@ -374,20 +374,6 @@ iframe.example{
   100% {transform:translate3d(0,0,0);}
 }
 
-@media only screen and (max-device-width: 305px) {
-    .content {
-
-      &__container {
-            font-size: 12px;
-
-        &__list {
-          padding-left: 58px;
-        }
-      }
-    }
-
-}
-
 @media only screen and (max-device-width: 480px){
     $base-font-size: 10px;
 
@@ -486,11 +472,22 @@ iframe.example{
       font-size: large;
 
       &__container {
+            @(max-device-width: 305px) {
+                font-size: 12px;
+            }
+           @(min-device-width: 305px) {
+                font-size: initial;
+            }
             padding: 0 20px;
-            font-size: initial;
 
         &__list {
-          padding-left: 88px;
+            @(max-device-width: 305px) {
+                padding-left: 58px;
+            }
+           @(min-device-width: 305px) {
+               padding-left: 88px;
+            }
+          
 
           &__item {
             line-height:40px;
