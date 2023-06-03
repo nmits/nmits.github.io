@@ -17,7 +17,6 @@
     margin-top: $title-margin;
     margin-bottom: 10px;
     padding-left:5%;
-    min-width: 100vw;
     min-height:100%
 }
 
@@ -476,7 +475,6 @@ iframe.example{
 
       &__container {
             padding: 0 20px;
-            min-width: max-content;
             font-size: initial;
 
         &__list {
