@@ -476,18 +476,12 @@ iframe.example{
       width:100vw;
 
       &__container {
-            font-weight: 600;
-            height: 40px;
             padding: 0 20px;
-            min-width: 80vw;
+            min-width: max-content;
             font-size: initial;
 
-        &__text {
-        }
-
         &__list {
-          padding-left: 0px;
-          float: right;
+          padding-left: 88px;
 
           &__item {
             line-height:40px;
@@ -504,6 +498,10 @@ iframe.example{
 
       &__container {
             font-size: 12px;
+
+        &__list {
+          padding-left: 58px;
+        }
       }
     }
 
