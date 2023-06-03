@@ -374,8 +374,21 @@ iframe.example{
   100% {transform:translate3d(0,0,0);}
 }
 
+@media only screen and (max-device-width: 305px) {
+    .content {
 
-@media only screen and (max-device-width: 480px) and (min-device-width: 305px){
+      &__container {
+            font-size: 12px;
+
+        &__list {
+          padding-left: 58px;
+        }
+      }
+    }
+
+}
+
+@media only screen and (max-device-width: 480px){
     $base-font-size: 10px;
 
 
@@ -483,20 +496,6 @@ iframe.example{
             line-height:40px;
             margin:0 0 3px 0;
           }
-        }
-      }
-    }
-
-}
-
-@media only screen and (max-device-width: 305px) {
-    .content {
-
-      &__container {
-            font-size: 12px;
-
-        &__list {
-          padding-left: 58px;
         }
       }
     }
