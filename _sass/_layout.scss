@@ -247,7 +247,7 @@ p.codeSnippet{
         background-color: darkslategray;
         opacity: 0.4;
         max-width: min-content;
-        font-size: 5vh;
+        font-size: 3.5vw;
 
     &__text {
         display: inline;
@@ -256,7 +256,7 @@ p.codeSnippet{
     }
 
     &__list {
-      padding-left: 5vh;
+      padding-left: 25vw;
       text-align: left;
       list-style: none;
       color: slategrey;
