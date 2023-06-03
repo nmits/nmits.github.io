@@ -247,6 +247,7 @@ p.codeSnippet{
         background-color: darkslategray;
         opacity: 0.4;
         max-width: min-content;
+        font-size: 5vh;
 
     &__text {
         display: inline;
@@ -255,7 +256,7 @@ p.codeSnippet{
     }
 
     &__list {
-      padding-left: 345px;
+      padding-left: 5vh;
       text-align: left;
       list-style: none;
       color: slategrey;
@@ -472,22 +473,7 @@ iframe.example{
       font-size: large;
 
       &__container {
-            @(max-device-width: 305px) {
-                font-size: 12px;
-            }
-           @(min-device-width: 305px) {
-                font-size: initial;
-            }
             padding: 0 20px;
-
-        &__list {
-            @(max-device-width: 305px) {
-                padding-left: 58px;
-            }
-           @(min-device-width: 305px) {
-               padding-left: 88px;
-            }
-          
 
           &__item {
             line-height:40px;
