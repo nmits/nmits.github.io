@@ -439,6 +439,24 @@ iframe.example{
         min-width:80%;
     }
 
+    .content {
+      font-size: large;
+
+      &__container {
+            padding: 0 20px;
+
+          &__list__item {
+            line-height:40px;
+            margin:0 0 3px 0;
+          }
+        }
+      }
+    }
+
+
+
+@media only screen and (max-device-width: 775px){
+
     .site-footer > nav{
         width: 0px;
         height: 0px;
@@ -468,18 +486,5 @@ iframe.example{
         float: left;
 
     }
-
-    .content {
-      font-size: large;
-
-      &__container {
-            padding: 0 20px;
-
-          &__list__item {
-            line-height:40px;
-            margin:0 0 3px 0;
-          }
-        }
-      }
-    }
+}
 
