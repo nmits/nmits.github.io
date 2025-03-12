@@ -2,7 +2,7 @@ import { Brain, Code2, Cpu, LineChart } from "lucide-react";
 
 export const About = () => {
   return (
-    <section className="py-16 md:py-24">
+    <section id="about" className="py-16 md:py-24">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold mb-12 text-center">
@@ -11,7 +11,7 @@ export const About = () => {
 
           <div className="prose prose-invert max-w-none mb-16">
             <p className="text-lg text-foreground/80 leading-relaxed">
-              I'm a tech entrepreneur and AI specialist with a passion for building products that enhance human connections. Currently, I'm co-founding Favs, a close friends social network startup that's reimagining how we interact online by encouraging meaningful, time-conscious engagement. We've secured ~$1M in pre-seed funding and are preparing for launch in early 2024.
+              I'm a tech entrepreneur and AI specialist with a passion for building products that enhance human connections. 
             </p>
             <p className="text-lg text-foreground/80 leading-relaxed mt-4">
               Previously, I led the Health vertical for ads growth at Meta, where my work was highlighted in earnings calls as the second-largest growth area. At Portfolio Insider, as Chief of AI, I pioneered GPT-3 implementations to democratize financial data access. My journey also includes impactful roles at Google, where I improved ad relevance through ML, and at Gimbal, where I architected systems processing over 2 billion events monthly.

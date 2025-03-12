@@ -102,13 +102,13 @@ export const Projects = () => {
                 href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group block bg-secondary/10 rounded-lg p-6 hover:bg-secondary/20 transition-colors duration-200"
+                className="group block bg-secondary/10 rounded-lg p-6 hover:bg-secondary/20 transition-all duration-300"
               >
-                <div className="flex justify-between items-start mb-4">
-                  <h3 className="text-xl font-semibold group-hover:text-primary transition-colors duration-200">
+                <div className="flex justify-between items-start mb-6">
+                  <h3 className="text-xl font-semibold group-hover:text-primary transition-colors duration-300">
                     {project.title}
                   </h3>
-                  <ArrowUpRight className="h-5 w-5 text-foreground/50 group-hover:text-primary transition-colors duration-200" />
+                  <ArrowUpRight className="h-5 w-5 text-foreground/50 group-hover:text-primary group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-300" />
                 </div>
                 <p className="text-foreground/80 mb-4">{project.description}</p>
                 <div className="flex flex-wrap gap-2">

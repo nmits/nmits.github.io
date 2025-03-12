@@ -54,7 +54,7 @@ export const Hero = () => {
           </h1>
           
           <p className="text-xl text-foreground/80 max-w-2xl mx-auto mb-10 fade-in-section animation-delay-200">
-            Tech leader and entrepreneur building the future of in ads and AI. Previously led AI initiatives, and monetization at Meta and Google.
+            Tech leader and entrepreneur building the future of Ads and AI. Previously led AI and monetization initiatives at Meta and Google.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 fade-in-section animation-delay-300">
@@ -65,7 +65,7 @@ export const Hero = () => {
               View Experience
             </a>
             <a
-              href="https://www.linkedin.com/in/noahmits/"
+              href="https://www.linkedin.com/in/nmits/"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 rounded-lg bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-colors duration-200"
