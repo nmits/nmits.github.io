@@ -54,7 +54,7 @@ export const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-foreground/80 max-w-2xl mx-auto mb-10 fade-in-section animation-delay-200 leading-relaxed">
-            Tech leader and entrepreneur building the future of Ads and AI. Previously led AI and monetization initiatives at Meta and Google.
+            Entrepreneur obsessed with product and growth. Ads and AI at Meta and Google.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 fade-in-section animation-delay-300">

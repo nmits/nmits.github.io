@@ -14,10 +14,14 @@ export const About = () => {
 
           <div className="prose prose-invert max-w-none mb-16 fade-in-section">
             <p className="text-lg md:text-xl text-foreground/80 leading-relaxed">
-              I'm a tech entrepreneur and AI specialist with a passion for building products that enhance human connections. 
+              I'm a tech entrepreneur and AI specialist with a passion for building products that enhance the human experience. 
             </p>
             <p className="text-lg md:text-xl text-foreground/80 leading-relaxed mt-6">
               Previously, I led the Health vertical for ads growth at Meta, where my work was highlighted in earnings calls as the second-largest growth area. At Portfolio Insider, as Chief of AI, I pioneered GPT-3 implementations to democratize financial data access. My journey also includes impactful roles at Google, where I improved ad relevance through ML, and at Gimbal, where I architected systems processing over 2 billion events monthly.
+            </p>
+            <p className="text-lg md:text-xl text-foreground/80 leading-relaxed mt-6">
+              USC Undergrad for Computer Science/Business Administration, club involvements in skiing, investing, and entrepreneurship.
+              Unfortunately, didn't drop out
             </p>
           </div>
 
@@ -27,17 +31,10 @@ export const About = () => {
               <ul className="space-y-4">
                 <li className="flex items-center gap-3 group">
                   <div className="relative">
-                    <Brain className="h-5 w-5 text-primary group-hover:scale-110 transition-transform duration-200" />
+                    <LineChart className="h-5 w-5 text-primary group-hover:scale-110 transition-transform duration-200" />
                     <div className="absolute inset-0 bg-primary/10 rounded-full scale-0 group-hover:scale-150 transition-transform duration-300 -z-10"></div>
                   </div>
-                  <span className="text-foreground/80">Machine Learning & AI Development</span>
-                </li>
-                <li className="flex items-center gap-3 group">
-                  <div className="relative">
-                    <Code2 className="h-5 w-5 text-primary group-hover:scale-110 transition-transform duration-200" />
-                    <div className="absolute inset-0 bg-primary/10 rounded-full scale-0 group-hover:scale-150 transition-transform duration-300 -z-10"></div>
-                  </div>
-                  <span className="text-foreground/80">Software Architecture & Engineering</span>
+                  <span className="text-foreground/80">Product Strategy & Growth</span>
                 </li>
                 <li className="flex items-center gap-3 group">
                   <div className="relative">
@@ -48,10 +45,17 @@ export const About = () => {
                 </li>
                 <li className="flex items-center gap-3 group">
                   <div className="relative">
-                    <LineChart className="h-5 w-5 text-primary group-hover:scale-110 transition-transform duration-200" />
+                    <Code2 className="h-5 w-5 text-primary group-hover:scale-110 transition-transform duration-200" />
                     <div className="absolute inset-0 bg-primary/10 rounded-full scale-0 group-hover:scale-150 transition-transform duration-300 -z-10"></div>
                   </div>
-                  <span className="text-foreground/80">Product Strategy & Growth</span>
+                  <span className="text-foreground/80">Software Architecture & Engineering</span>
+                </li>
+                <li className="flex items-center gap-3 group">
+                  <div className="relative">
+                    <Brain className="h-5 w-5 text-primary group-hover:scale-110 transition-transform duration-200" />
+                    <div className="absolute inset-0 bg-primary/10 rounded-full scale-0 group-hover:scale-150 transition-transform duration-300 -z-10"></div>
+                  </div>
+                  <span className="text-foreground/80">Machine Learning & AI Development</span>
                 </li>
               </ul>
             </div>
