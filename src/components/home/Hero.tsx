@@ -45,22 +45,22 @@ export const Hero = () => {
 
       <div className="relative z-10 max-w-4xl mx-auto text-center">
         <div className="flex flex-col items-center">
-          <span className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6 fade-in-section">
+          <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6 fade-in-section">
             Forward Deployed & Product Engineer
           </span>
           
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 fade-in-section animation-delay-100">
-            <span className="text-gradient">Noah Mitsuhashi</span>
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 fade-in-section animation-delay-100 tracking-tight">
+            <span className="text-gradient bg-clip-text text-transparent">Noah Mitsuhashi</span>
           </h1>
           
-          <p className="text-xl text-foreground/80 max-w-2xl mx-auto mb-10 fade-in-section animation-delay-200">
+          <p className="text-xl md:text-2xl text-foreground/80 max-w-2xl mx-auto mb-10 fade-in-section animation-delay-200 leading-relaxed">
             Tech leader and entrepreneur building the future of Ads and AI. Previously led AI and monetization initiatives at Meta and Google.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 fade-in-section animation-delay-300">
             <a
               href="#projects"
-              className="px-6 py-3 rounded-lg bg-primary text-primary-foreground hover:bg-primary/90 transition-colors duration-200"
+              className="px-6 py-3 rounded-lg bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-200 font-medium shadow-lg hover:shadow-xl hover:-translate-y-0.5"
             >
               View Experience
             </a>
@@ -68,7 +68,7 @@ export const Hero = () => {
               href="https://www.linkedin.com/in/nmits/"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-6 py-3 rounded-lg bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-colors duration-200"
+              className="px-6 py-3 rounded-lg bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-all duration-200 font-medium shadow-lg hover:shadow-xl hover:-translate-y-0.5"
             >
               Connect on LinkedIn
             </a>

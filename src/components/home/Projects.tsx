@@ -1,6 +1,5 @@
 import { ArrowUpRight } from "lucide-react";
 import { SectionHeading } from "../ui/SectionHeading";
-import { Link } from "react-router-dom";
 import { useEffect } from "react";
 
 interface Project {
@@ -85,37 +84,40 @@ export const Projects = () => {
   }, []);
 
   return (
-    <section id="projects" className="py-16 md:py-24">
-      <div className="container mx-auto px-4">
+    <section id="projects" className="py-16 md:py-24 relative">
+      {/* Background gradient */}
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/5 via-background to-background"></div>
+      
+      <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold mb-4 text-center">
-            <span className="text-gradient">Featured Work</span>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">
+            <span className="text-gradient bg-clip-text text-transparent">Featured Work</span>
           </h2>
-          <p className="text-center text-foreground/80 mb-12">
+          <p className="text-lg md:text-xl text-center text-foreground/80 mb-12 max-w-2xl mx-auto">
             A collection of impactful projects and achievements from my career
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 fade-in-section">
             {projects.map((project, index) => (
               <a
                 key={project.title}
                 href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group block bg-secondary/10 rounded-lg p-6 hover:bg-secondary/20 transition-all duration-300"
+                className="group block bg-secondary/5 backdrop-blur-sm rounded-xl p-6 hover:bg-secondary/10 transition-all duration-300 border border-secondary/10 hover:border-secondary/20"
               >
-                <div className="flex justify-between items-start mb-6">
+                <div className="flex justify-between items-start mb-4">
                   <h3 className="text-xl font-semibold group-hover:text-primary transition-colors duration-300">
                     {project.title}
                   </h3>
                   <ArrowUpRight className="h-5 w-5 text-foreground/50 group-hover:text-primary group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-300" />
                 </div>
-                <p className="text-foreground/80 mb-4">{project.description}</p>
+                <p className="text-foreground/70 mb-4 line-clamp-3">{project.description}</p>
                 <div className="flex flex-wrap gap-2">
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="px-3 py-1 text-sm bg-secondary/20 rounded-full text-foreground/70"
+                      className="px-3 py-1 text-sm bg-primary/5 rounded-full text-primary/80 font-medium"
                     >
                       {tag}
                     </span>
