@@ -46,7 +46,7 @@ export const Hero = () => {
       <div className="relative z-10 max-w-4xl mx-auto text-center">
         <div className="flex flex-col items-center">
           <span className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6 fade-in-section">
-            Co-founder @ Favs
+            Forward Deployed & Product Engineer
           </span>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 fade-in-section animation-delay-100">
@@ -54,7 +54,7 @@ export const Hero = () => {
           </h1>
           
           <p className="text-xl text-foreground/80 max-w-2xl mx-auto mb-10 fade-in-section animation-delay-200">
-            Tech leader and entrepreneur building the future of social networking. Previously led AI initiatives and platform growth at Meta, Google, and Portfolio Insider.
+            Tech leader and entrepreneur building the future of in ads and AI. Previously led AI initiatives, and monetization at Meta and Google.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 fade-in-section animation-delay-300">

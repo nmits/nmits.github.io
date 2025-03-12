@@ -14,7 +14,7 @@ export const Contact = () => {
 
           <div className="flex justify-center items-center space-x-8">
             <a
-              href="https://www.linkedin.com/in/noahmits/"
+              href="https://www.linkedin.com/in/nmits/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-col items-center hover:text-primary transition-colors duration-200"
@@ -34,7 +34,7 @@ export const Contact = () => {
               <span className="text-sm">GitHub</span>
             </a>
             <a
-              href="mailto:noah@favs.com"
+              href="mailto:me@noahmitsuhashi.io"
               className="flex flex-col items-center hover:text-primary transition-colors duration-200"
               aria-label="Email"
             >

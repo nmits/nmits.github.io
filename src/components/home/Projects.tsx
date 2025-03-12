@@ -15,6 +15,12 @@ interface Project {
 export const Projects = () => {
   const projects = [
     {
+      title: "Meta GenAI and Telco",
+      description: "Returned to previous role to own Telecommunications and GenAI monetization (Creative, Agents) building AI generated ad creative, moved to core ads quality improvement through improved understanding of advertiser preferences and feature development, owned Tech advertisers",
+      tags: ["AI/ML", "Growth", "Ads Platform"],
+      link: "https://www.facebook.com/business/news/generative-ai-features-for-ads-coming-to-all-advertisers",
+    },
+    {
       title: "Favs – Close Friends Social Network",
       description:
         "Co-founded a social network focused on strengthening real-life friendships by limiting online engagement to just minutes per day. Raised ~$1M in pre-seed funding and preparing for launch in early 2024.",
@@ -54,7 +60,7 @@ export const Projects = () => {
       description:
         "Designed a system analyzing 1,000+ investment opportunities using custom heuristic algorithms. Generated personalized portfolio recommendations for 100+ clients, facilitating $2B+ in transactions.",
       tags: ["Financial Analysis", "Algorithms", "Python"],
-      link: "https://www.mutualsecurities.com/",
+      link: "https://pitchbook.com/profiles/advisor/719029-54#overview",
     },
   ];
 
