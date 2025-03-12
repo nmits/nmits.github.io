@@ -21,7 +21,7 @@ export const About = () => {
             </p>
             <p className="text-lg md:text-xl text-foreground/80 leading-relaxed mt-6">
               USC Undergrad for Computer Science/Business Administration, club involvements in skiing, investing, and entrepreneurship.
-              Unfortunately, didn't drop out
+              Unfortunately, didn't drop out.
             </p>
           </div>
 
