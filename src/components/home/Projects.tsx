@@ -16,7 +16,7 @@ export const Projects = () => {
     {
       title: "Pack",
       description:
-        "Building a free AI travel agent. Raised $1.5M pre-seed. One trip, one plan — flights, stays, and the rest of the itinerary.",
+        "A free AI travel agent. One trip, one plan — flights, stays, and everything in between.",
       tags: ["Founder", "AI", "Travel"],
       link: "https://www.trypackai.com",
     },

@@ -84,25 +84,6 @@ export const About = () => {
               </ul>
             </div>
           </div>
-
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 fade-in-section animation-delay-200">
-            <div className="rounded-2xl bg-white/[0.03] p-6 backdrop-blur-md border border-white/[0.06] hover:border-primary/20 transition-all duration-300">
-              <h4 className="text-2xl md:text-3xl font-bold text-primary mb-2">2B+</h4>
-              <p className="text-sm text-foreground/70">Monthly Events Processed</p>
-            </div>
-            <div className="rounded-2xl bg-white/[0.03] p-6 backdrop-blur-md border border-white/[0.06] hover:border-primary/20 transition-all duration-300">
-              <h4 className="text-2xl md:text-3xl font-bold text-primary mb-2">$1.5M</h4>
-              <p className="text-sm text-foreground/70">Pre-seed Funding Raised</p>
-            </div>
-            <div className="rounded-2xl bg-white/[0.03] p-6 backdrop-blur-md border border-white/[0.06] hover:border-primary/20 transition-all duration-300">
-              <h4 className="text-2xl md:text-3xl font-bold text-primary mb-2">3M+</h4>
-              <p className="text-sm text-foreground/70">Requests/Second</p>
-            </div>
-            <div className="rounded-2xl bg-white/[0.03] p-6 backdrop-blur-md border border-white/[0.06] hover:border-primary/20 transition-all duration-300">
-              <h4 className="text-2xl md:text-3xl font-bold text-primary mb-2">5+</h4>
-              <p className="text-sm text-foreground/70">Published Articles</p>
-            </div>
-          </div>
         </div>
       </div>
     </section>

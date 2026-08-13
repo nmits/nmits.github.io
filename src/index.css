@@ -113,3 +113,17 @@
   transform: translateY(-5px);
   box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.3);
 }
+
+@keyframes pax-nudge {
+  0%,
+  100% {
+    transform: translate(-50%, 0);
+  }
+  50% {
+    transform: translate(-50%, 8px);
+  }
+}
+
+.scroll-nudge {
+  animation: pax-nudge 2.8s cubic-bezier(0.45, 0, 0.2, 1) infinite;
+}

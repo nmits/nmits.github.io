@@ -78,7 +78,7 @@ export const Hero = () => {
 
       <button
         onClick={scrollToNextSection}
-        className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-foreground/60 hover:text-foreground transition-colors duration-200 animate-bounce"
+        className="scroll-nudge absolute bottom-10 left-1/2 text-foreground/60 hover:text-foreground transition-colors duration-200"
         aria-label="Scroll down"
       >
         <ArrowDown className="h-6 w-6" />
