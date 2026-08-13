@@ -1,88 +1,44 @@
-import { ArrowDown } from "lucide-react";
-import { useEffect, useRef } from "react";
-
 export const Hero = () => {
-  const heroRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("is-visible");
-          }
-        });
-      },
-      { threshold: 0.1 }
-    );
-
-    const sections = document.querySelectorAll(".fade-in-section");
-    sections.forEach((section) => observer.observe(section));
-
-    return () => {
-      sections.forEach((section) => observer.unobserve(section));
-    };
-  }, []);
-
-  const scrollToNextSection = () => {
-    const nextSection = heroRef.current?.nextElementSibling;
-    if (nextSection) {
-      nextSection.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   return (
-    <div
-      ref={heroRef}
-      className="relative min-h-screen flex flex-col justify-center items-center px-4 overflow-hidden"
+    <section
+      id="top"
+      className="relative flex min-h-[100svh] flex-col justify-end px-6 pb-20 pt-32"
     >
-      {/* Background gradient */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-900/20 via-background to-background z-0"></div>
-
-      {/* Animated circle decoration */}
-      <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/5 rounded-full blur-3xl animate-pulse opacity-50"></div>
-      <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-blue-500/5 rounded-full blur-3xl animate-pulse opacity-30"></div>
-
-      <div className="relative z-10 max-w-4xl mx-auto text-center">
-        <div className="flex flex-col items-center">
-          <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6 fade-in-section">
-            Forward Deployed & Product Engineer
-          </span>
-          
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 fade-in-section animation-delay-100 tracking-tight">
-            <span className="text-gradient bg-clip-text text-transparent">Noah Mitsuhashi</span>
-          </h1>
-          
-          <p className="text-xl md:text-2xl text-foreground/80 max-w-2xl mx-auto mb-10 fade-in-section animation-delay-200 leading-relaxed">
-            Entrepreneur obsessed with product and growth. Ads and AI at Meta and Google.
-          </p>
-
-          <div className="flex flex-col sm:flex-row gap-4 fade-in-section animation-delay-300">
-            <a
-              href="#projects"
-              className="px-6 py-3 rounded-lg bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-200 font-medium shadow-lg hover:shadow-xl hover:-translate-y-0.5"
-            >
-              View Experience
-            </a>
-            <a
-              href="https://www.linkedin.com/in/nmits/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-6 py-3 rounded-lg bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-all duration-200 font-medium shadow-lg hover:shadow-xl hover:-translate-y-0.5"
-            >
-              Connect on LinkedIn
-            </a>
-          </div>
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-0"
+        style={{
+          background:
+            "radial-gradient(80% 50% at 80% 0%, rgba(196,108,77,0.18), transparent 55%), radial-gradient(60% 40% at 10% 80%, rgba(243,210,122,0.08), transparent 50%)",
+        }}
+      />
+      <div className="relative mx-auto w-full max-w-5xl">
+        <p className="eyebrow mb-8">Now · Pack</p>
+        <h1 className="display max-w-4xl text-5xl text-[var(--pax-ink)] sm:text-7xl md:text-8xl">
+          A free travel agent
+          <span className="italic text-[var(--pax-gold)]"> for everyone.</span>
+        </h1>
+        <p className="mt-8 max-w-xl text-lg leading-relaxed text-[var(--pax-ink-dim)] sm:text-xl">
+          Noah Mitsuhashi. Building Pack. Before that: ads and AI at Meta and
+          Google.
+        </p>
+        <div className="mt-10 flex flex-wrap items-center gap-3">
+          <a
+            href="#work"
+            className="rounded-full bg-[var(--pax-gold)] px-6 py-3 text-sm font-medium text-[var(--pax-bg)] transition-transform duration-500 ease-[var(--pax-ease)] hover:-translate-y-0.5"
+          >
+            Selected work
+          </a>
+          <a
+            href="https://www.trypackai.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-full border border-[var(--pax-line)] px-6 py-3 text-sm text-[var(--pax-ink)] transition-colors hover:border-[var(--pax-gold)] hover:text-[var(--pax-gold)]"
+          >
+            trypackai.com
+          </a>
         </div>
       </div>
-
-      <button
-        onClick={scrollToNextSection}
-        className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-foreground/60 hover:text-foreground transition-colors duration-200 animate-bounce"
-        aria-label="Scroll down"
-      >
-        <ArrowDown className="h-6 w-6" />
-      </button>
-    </div>
+    </section>
   );
 };

@@ -1,132 +1,98 @@
-import { ArrowUpRight } from "lucide-react";
-import { SectionHeading } from "../ui/SectionHeading";
-import { useEffect } from "react";
-
-interface Project {
-  id: string;
-  title: string;
-  description: string;
-  tags: string[];
-  image: string;
-  link?: string;
-}
+const work = [
+  {
+    year: "Now",
+    title: "Pack",
+    description:
+      "A free AI travel agent. One trip, one plan — flights, stays, and the rest of the itinerary without the OTA tax.",
+    href: "https://www.trypackai.com",
+    tags: ["Founder", "Product", "AI"],
+  },
+  {
+    year: "Meta",
+    title: "GenAI and Telco",
+    description:
+      "Owned Telecommunications and GenAI monetization — creative, agents, advertiser-preference quality. Tech advertisers.",
+    href: "https://www.facebook.com/business/news/generative-ai-features-for-ads-coming-to-all-advertisers",
+    tags: ["Ads", "GenAI"],
+  },
+  {
+    year: "Favs",
+    title: "Close-friends social",
+    description:
+      "Co-founded a network that keeps online time to minutes a day. Raised about $1M pre-seed.",
+    href: "https://investitin.com/stealth-startup-favs-raises-1-million-for-its-close-friends-only-social-network/",
+    tags: ["Founder", "iOS"],
+  },
+  {
+    year: "Meta",
+    title: "Health vertical growth",
+    description:
+      "Led Health ads growth — called out as the second-largest growth area on 2022 Q4 and 2023 Q1 earnings. Co-built a U.S. dynamic-ads program.",
+    href: "https://investor.fb.com/home/default.aspx",
+    tags: ["Growth", "Ads"],
+  },
+  {
+    year: "PI",
+    title: "Portfolio Insider",
+    description:
+      "Chief of AI. GPT-3 tools that strip jargon from market data so people can actually read a stock pick.",
+    href: "https://www.portfolioinsider.com/",
+    tags: ["GPT-3", "Fintech"],
+  },
+  {
+    year: "Gimbal",
+    title: "Event pipeline",
+    description:
+      "Architected pipelines at 2B+ events a month and 3M+ requests/sec. Location analytics at petabyte scale.",
+    href: "https://www.infillion.com/",
+    tags: ["Data", "Systems"],
+  },
+  {
+    year: "Google",
+    title: "Ads relevance",
+    description:
+      "Machine learning for ad relevance. Pipelines and cleaning for AI-driven advertising products.",
+    href: "https://ads.google.com/",
+    tags: ["ML", "Ads"],
+  },
+];
 
 export const Projects = () => {
-  const projects = [
-    {
-      title: "Meta GenAI and Telco",
-      description: "Returned to previous role to own Telecommunications and GenAI monetization (Creative, Agents) building AI generated ad creative, moved to core ads quality improvement through improved understanding of advertiser preferences and feature development, owned Tech advertisers",
-      tags: ["AI/ML", "Growth", "Ads Platform"],
-      link: "https://www.facebook.com/business/news/generative-ai-features-for-ads-coming-to-all-advertisers",
-    },
-    {
-      title: "Favs – Close Friends Social Network",
-      description:
-        "Co-founded a social network focused on strengthening real-life friendships by limiting online engagement to just minutes per day. Raised ~$1M in pre-seed funding and preparing for launch in early 2024.",
-      tags: ["Social Networking", "iOS Development", "Product Strategy"],
-      link: "https://investitin.com/stealth-startup-favs-raises-1-million-for-its-close-friends-only-social-network/",
-    },
-    {
-      title: "Meta Health Vertical Growth",
-      description:
-        "Led the Health vertical for ads growth at Meta, contributing to the second-largest growth area (highlighted in 2022 Q4 and 2023 Q1 earnings calls). Co-built a U.S. program optimizing dynamic ads with AI.",
-      tags: ["AI/ML", "Growth", "Ads Platform"],
-      link: "https://investor.fb.com/home/default.aspx",
-    },
-    {
-      title: "Portfolio Insider AI Platform",
-      description:
-        "As Chief of AI, pioneered GPT-3 implementations to democratize financial data access. Built AI tools to eliminate jargon barriers and provide accessible stock-picking recommendations.",
-      tags: ["GPT-3", "FinTech", "AI Development"],
-      link: "https://www.portfolioinsider.com/",
-    },
-    {
-      title: "Gimbal Data Pipeline",
-      description:
-        "Architected high-performance data pipelines processing 2+ billion events monthly and 3M+ requests/sec at petabyte scale. Implemented location analytics and consumer trend discovery algorithms.",
-      tags: ["Big Data", "Microservices", "Analytics"],
-      link: "https://www.infillion.com/",
-    },
-    {
-      title: "Google Ads Relevance",
-      description:
-        "Enhanced ad relevance through machine learning on Google's Ads team. Built scalable data pipelines and cleaning processes for AI-driven advertising products.",
-      tags: ["Machine Learning", "Data Engineering", "Ads"],
-      link: "https://ads.google.com/",
-    },
-    {
-      title: "Investment Analysis Platform",
-      description:
-        "Designed a system analyzing 1,000+ investment opportunities using custom heuristic algorithms. Generated personalized portfolio recommendations for 100+ clients, facilitating $2B+ in transactions.",
-      tags: ["Financial Analysis", "Algorithms", "Python"],
-      link: "https://pitchbook.com/profiles/advisor/719029-54#overview",
-    },
-  ];
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("is-visible");
-          }
-        });
-      },
-      { threshold: 0.1 }
-    );
-
-    const sections = document.querySelectorAll(".fade-in-section");
-    sections.forEach((section) => observer.observe(section));
-
-    return () => {
-      sections.forEach((section) => observer.unobserve(section));
-    };
-  }, []);
-
   return (
-    <section id="projects" className="py-16 md:py-24 relative">
-      {/* Background gradient */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/5 via-background to-background"></div>
-      
-      <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">
-            <span className="text-gradient bg-clip-text text-transparent">Featured Work</span>
-          </h2>
-          <p className="text-lg md:text-xl text-center text-foreground/80 mb-12 max-w-2xl mx-auto">
-            A collection of impactful projects and achievements from my career
-          </p>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 fade-in-section">
-            {projects.map((project, index) => (
+    <section id="work" className="px-6 py-24">
+      <div className="mx-auto max-w-5xl">
+        <p className="eyebrow mb-4">Selected work</p>
+        <h2 className="display mb-16 max-w-2xl text-4xl text-[var(--pax-ink)] sm:text-5xl">
+          Places I shipped things that moved a number.
+        </h2>
+        <ol className="divide-y divide-[var(--pax-line)] border-y border-[var(--pax-line)]">
+          {work.map((item) => (
+            <li key={item.title}>
               <a
-                key={project.title}
-                href={project.link}
+                href={item.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group block bg-secondary/5 backdrop-blur-sm rounded-xl p-6 hover:bg-secondary/10 transition-all duration-300 border border-secondary/10 hover:border-secondary/20"
+                className="group grid gap-4 py-8 transition-colors sm:grid-cols-[5.5rem_1fr_auto] sm:items-baseline"
               >
-                <div className="flex justify-between items-start mb-4">
-                  <h3 className="text-xl font-semibold group-hover:text-primary transition-colors duration-300">
-                    {project.title}
+                <span className="eyebrow text-[var(--pax-clay)]">{item.year}</span>
+                <div>
+                  <h3 className="font-serif text-2xl text-[var(--pax-ink)] transition-colors group-hover:text-[var(--pax-gold)]">
+                    {item.title}
                   </h3>
-                  <ArrowUpRight className="h-5 w-5 text-foreground/50 group-hover:text-primary group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-300" />
+                  <p className="mt-2 max-w-xl text-[var(--pax-ink-dim)]">
+                    {item.description}
+                  </p>
+                  <p className="mt-3 text-xs tracking-wide text-[var(--pax-ink-mute)]">
+                    {item.tags.join(" · ")}
+                  </p>
                 </div>
-                <p className="text-foreground/70 mb-4 line-clamp-3">{project.description}</p>
-                <div className="flex flex-wrap gap-2">
-                  {project.tags.map((tag) => (
-                    <span
-                      key={tag}
-                      className="px-3 py-1 text-sm bg-primary/5 rounded-full text-primary/80 font-medium"
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
+                <span className="hidden text-sm text-[var(--pax-gold)] opacity-0 transition-opacity group-hover:opacity-100 sm:block">
+                  Open
+                </span>
               </a>
-            ))}
-          </div>
-        </div>
+            </li>
+          ))}
+        </ol>
       </div>
     </section>
   );

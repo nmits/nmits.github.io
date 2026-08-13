@@ -1,12 +1,9 @@
 export const Footer = () => {
-  const currentYear = new Date().getFullYear();
-
   return (
-    <footer className="py-8 border-t border-white/10">
-      <div className="container mx-auto px-4">
-        <div className="text-center text-sm text-muted-foreground">
-          <p> {currentYear} Noah Mitsuhashi. All rights reserved.</p>
-        </div>
+    <footer className="px-6 pb-12">
+      <div className="mx-auto flex max-w-5xl flex-col gap-2 border-t border-[var(--pax-line)] pt-8 text-sm text-[var(--pax-ink-mute)] sm:flex-row sm:justify-between">
+        <p>© {new Date().getFullYear()} Noah Mitsuhashi</p>
+        <p>Los Angeles</p>
       </div>
     </footer>
   );
