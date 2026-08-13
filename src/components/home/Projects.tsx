@@ -14,6 +14,13 @@ interface Project {
 export const Projects = () => {
   const projects = [
     {
+      title: "Pack",
+      description:
+        "Building a free AI travel agent. Raised $1.5M pre-seed. One trip, one plan — flights, stays, and the rest of the itinerary.",
+      tags: ["Founder", "AI", "Travel"],
+      link: "https://www.trypackai.com",
+    },
+    {
       title: "Meta GenAI and Telco",
       description: "Returned to previous role to own Telecommunications and GenAI monetization (Creative, Agents) building AI generated ad creative, moved to core ads quality improvement through improved understanding of advertiser preferences and feature development, owned Tech advertisers",
       tags: ["AI/ML", "Growth", "Ads Platform"],
@@ -104,7 +111,7 @@ export const Projects = () => {
                 href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group block bg-secondary/5 backdrop-blur-sm rounded-xl p-6 hover:bg-secondary/10 transition-all duration-300 border border-secondary/10 hover:border-secondary/20"
+                className="group block rounded-2xl bg-white/[0.03] p-6 backdrop-blur-md transition-all duration-300 border border-white/[0.06] hover:border-primary/25 hover:bg-white/[0.05]"
               >
                 <div className="flex justify-between items-start mb-4">
                   <h3 className="text-xl font-semibold group-hover:text-primary transition-colors duration-300">

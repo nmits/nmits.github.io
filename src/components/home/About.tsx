@@ -26,7 +26,7 @@ export const About = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16 fade-in-section animation-delay-100">
-            <div className="bg-secondary/5 backdrop-blur-sm rounded-xl p-6 border border-secondary/10 hover:border-secondary/20 transition-all duration-300">
+            <div className="rounded-2xl bg-white/[0.03] p-6 backdrop-blur-md border border-white/[0.06] hover:border-primary/20 transition-all duration-300">
               <h3 className="text-xl font-semibold mb-6 text-gradient bg-clip-text text-transparent">Technical Expertise</h3>
               <ul className="space-y-4">
                 <li className="flex items-center gap-3 group">
@@ -60,7 +60,7 @@ export const About = () => {
               </ul>
             </div>
 
-            <div className="bg-secondary/5 backdrop-blur-sm rounded-xl p-6 border border-secondary/10 hover:border-secondary/20 transition-all duration-300">
+            <div className="rounded-2xl bg-white/[0.03] p-6 backdrop-blur-md border border-white/[0.06] hover:border-primary/20 transition-all duration-300">
               <h3 className="text-xl font-semibold mb-6 text-gradient bg-clip-text text-transparent">Publications</h3>
               <ul className="space-y-4">
                 <li>
@@ -86,19 +86,19 @@ export const About = () => {
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 fade-in-section animation-delay-200">
-            <div className="p-6 bg-secondary/5 backdrop-blur-sm rounded-xl border border-secondary/10 hover:border-secondary/20 transition-all duration-300">
+            <div className="rounded-2xl bg-white/[0.03] p-6 backdrop-blur-md border border-white/[0.06] hover:border-primary/20 transition-all duration-300">
               <h4 className="text-2xl md:text-3xl font-bold text-primary mb-2">2B+</h4>
               <p className="text-sm text-foreground/70">Monthly Events Processed</p>
             </div>
-            <div className="p-6 bg-secondary/5 backdrop-blur-sm rounded-xl border border-secondary/10 hover:border-secondary/20 transition-all duration-300">
-              <h4 className="text-2xl md:text-3xl font-bold text-primary mb-2">$1M</h4>
+            <div className="rounded-2xl bg-white/[0.03] p-6 backdrop-blur-md border border-white/[0.06] hover:border-primary/20 transition-all duration-300">
+              <h4 className="text-2xl md:text-3xl font-bold text-primary mb-2">$1.5M</h4>
               <p className="text-sm text-foreground/70">Pre-seed Funding Raised</p>
             </div>
-            <div className="p-6 bg-secondary/5 backdrop-blur-sm rounded-xl border border-secondary/10 hover:border-secondary/20 transition-all duration-300">
+            <div className="rounded-2xl bg-white/[0.03] p-6 backdrop-blur-md border border-white/[0.06] hover:border-primary/20 transition-all duration-300">
               <h4 className="text-2xl md:text-3xl font-bold text-primary mb-2">3M+</h4>
               <p className="text-sm text-foreground/70">Requests/Second</p>
             </div>
-            <div className="p-6 bg-secondary/5 backdrop-blur-sm rounded-xl border border-secondary/10 hover:border-secondary/20 transition-all duration-300">
+            <div className="rounded-2xl bg-white/[0.03] p-6 backdrop-blur-md border border-white/[0.06] hover:border-primary/20 transition-all duration-300">
               <h4 className="text-2xl md:text-3xl font-bold text-primary mb-2">5+</h4>
               <p className="text-sm text-foreground/70">Published Articles</p>
             </div>
