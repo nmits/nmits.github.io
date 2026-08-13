@@ -20,9 +20,8 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				sans: ['Inter', 'Segoe UI', 'sans-serif'],
-				serif: ['Fraunces', 'Georgia', 'serif'],
-				mono: ['SF Mono', 'ui-monospace', 'monospace'],
+				sans: ['SF Pro Display', 'system-ui', 'sans-serif'],
+				mono: ['SF Mono', 'monospace'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',

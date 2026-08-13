@@ -1,53 +1,112 @@
-import { useEffect, useState } from "react";
+
+import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { cn } from "@/lib/utils";
 
-const links = [
-  { name: "Work", href: "#work" },
-  { name: "About", href: "#about" },
-  { name: "Contact", href: "#contact" },
-];
-
 export const Navbar = () => {
-  const [scrolled, setScrolled] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const navLinks = [
+    { name: "Home", path: "/" },
+    { name: "Projects", path: "/#projects" },
+    { name: "About", path: "/#about" },
+    { name: "Contact", path: "/#contact" },
+  ];
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 12);
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
+    const handleScroll = () => {
+      if (window.scrollY > 10) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const toggleMobileMenu = () => setMobileMenuOpen(!mobileMenuOpen);
 
   return (
     <header
       className={cn(
-        "fixed inset-x-0 top-0 z-50 transition-[background,border] duration-500",
-        scrolled
-          ? "border-b border-[var(--pax-line)] bg-[color:var(--pax-bg)]/85 backdrop-blur-md"
+        "fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-4",
+        isScrolled
+          ? "backdrop-blur-xl bg-background/80 shadow-md shadow-black/5"
           : "bg-transparent"
       )}
     >
-      <div className="mx-auto flex h-16 max-w-5xl items-center justify-between px-6">
-        <a href="#top" className="eyebrow text-[var(--pax-ink)]">
-          Noah Mitsuhashi
-        </a>
-        <nav className="hidden items-center gap-8 sm:flex">
-          {links.map((link) => (
-            <a
-              key={link.name}
-              href={link.href}
-              className="text-sm text-[var(--pax-ink-dim)] transition-colors duration-300 hover:text-[var(--pax-gold)]"
-            >
-              {link.name}
-            </a>
-          ))}
-        </nav>
-        <a
-          href="mailto:me@noahmitsuhashi.io"
-          className="text-sm text-[var(--pax-gold)] transition-opacity hover:opacity-80"
-        >
-          Email
-        </a>
+      <div className="container mx-auto px-4">
+        <div className="flex items-center justify-between">
+          <Link to="/" className="text-xl font-medium text-gradient">
+            Noah<span className="text-primary">.</span>
+          </Link>
+
+          {/* Desktop Navigation */}
+          <nav className="hidden md:flex items-center space-x-8">
+            {navLinks.map((link) => (
+              <a
+                key={link.name}
+                href={link.path}
+                className="text-sm text-foreground/80 hover:text-foreground transition-colors duration-200"
+              >
+                {link.name}
+              </a>
+            ))}
+          </nav>
+
+          {/* Mobile Menu Button */}
+          <button
+            className="md:hidden flex flex-col space-y-1.5 p-2"
+            onClick={toggleMobileMenu}
+            aria-label="Toggle menu"
+          >
+            <span
+              className={cn(
+                "w-6 h-px bg-foreground transition-transform duration-300",
+                mobileMenuOpen && "translate-y-[0.375rem] rotate-45"
+              )}
+            ></span>
+            <span
+              className={cn(
+                "w-6 h-px bg-foreground transition-opacity duration-300",
+                mobileMenuOpen && "opacity-0"
+              )}
+            ></span>
+            <span
+              className={cn(
+                "w-6 h-px bg-foreground transition-transform duration-300",
+                mobileMenuOpen && "-translate-y-[0.375rem] -rotate-45"
+              )}
+            ></span>
+          </button>
+        </div>
       </div>
+
+      {/* Mobile Navigation */}
+      <nav
+        className={cn(
+          "md:hidden absolute left-0 right-0 bg-background/95 backdrop-blur-xl shadow-xl overflow-hidden transition-all duration-300 ease-in-out",
+          mobileMenuOpen ? "max-h-[400px] border-b border-white/10" : "max-h-0"
+        )}
+      >
+        <div className="container mx-auto px-4 py-4">
+          <div className="flex flex-col space-y-4">
+            {navLinks.map((link) => (
+              <a
+                key={link.name}
+                href={link.path}
+                className="text-foreground/80 hover:text-foreground py-2 transition-colors duration-200"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                {link.name}
+              </a>
+            ))}
+          </div>
+        </div>
+      </nav>
     </header>
   );
 };
